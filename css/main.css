@@ -94,11 +94,38 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   .tabs nav ul {
+     width: 100%;
+   }
 
-
-
-
-
+.tabs nav ul li {
+  list-style: none;
+  text-align: center;
+  width: 50%;
+  display: inline-block;
+  float: left;
+  background-color: papayawhip;
+}
+.tabs nav ul li a {
+  text-decoration: none;
+  width: 100%;
+  border: 1px solid lightgrey;
+  display: inline-block;
+  line-height: 2;
+}
+.tabs nav ul li a span {
+  font-size: .5em;
+}
+.tabs nav ul li.tab-current {
+  border-top: 3px solid black;
+  background-color: white;
+}
+.tabs nav ul li.tab-current a {
+  border: transparent;
+}
+.tabs nav ul li.tab-current a span {
+  color: black;
+}
 
 
 
