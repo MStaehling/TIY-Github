@@ -17,6 +17,7 @@
     "pure": "~0.6.0",
     "lodash": "~3.9.3",
     "jquery": "~2.1.4",
-    "octicons": "~2.4.1"
+    "octicons": "~2.4.1",
+    "normalize.css": "~3.0.3"
   }
 }

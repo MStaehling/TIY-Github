@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "browser-sync start --server --files='js/*.js,test/index.html,test/spec/**/*.js' --startPath test/index.html",
-    "start": "browser-sync start --server --files='src/index.html,src/css/*.css,src/js/*.js'"
+    "start": "browser-sync start --server --files='src/index.html,src/css/*.css,src/js/*.js'",
+    "postinstall": "npm run bower:install",
+    "bower:install": "bower install --save",
+    "postbower:install": "wiredep --src src/index.html"
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,8 @@
   "homepage": "https://github.com/MStaehling/TIY-Github",
   "directories": {
     "test": "test"
+  },
+  "devDependencies": {
+    "wiredep": "^2.2.2"
   }
 }
