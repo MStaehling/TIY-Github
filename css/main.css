@@ -133,7 +133,7 @@ textarea {
 .profile {
   width: 100%;
   float: left;
-  font-size: .5em;
+  font-size: 1em;
 }
 img {
   width: 30%;
@@ -141,14 +141,16 @@ img {
   float: left;
   margin: 1em;
 }
-.profile div {
+.profile .details {
+  display: inline-block;
 }
 .profile div ul {
   list-style: none;
+  padding: 0;
 }
 .profile div ul li span {
   margin: 2px;
-  font-size: .5em;
+  font-size: 1em;
   color: grey;
   width: 1em;
 }
@@ -159,7 +161,7 @@ button {
   width: 100%;
   background-color: #49653E;
   color: white;
-  height: 5em;
+  height: 3em;
 }
 table {
   width: 100%;
@@ -193,7 +195,10 @@ table .bottom {
 .popular-repo ul .right {
   float: right;
 }
-
+.profile .popular-repo ul li a span {
+  width: 1em;
+  font-size: 1em;
+}
 
 
 
