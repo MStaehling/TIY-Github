@@ -147,6 +147,8 @@ img {
 .profile div ul li span {
   margin: 2px;
   font-size: .5em;
+  color: grey;
+  width: 2em;
 }
 .stats {
   border-bottom: 1px solid lightgrey;
