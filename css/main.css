@@ -98,6 +98,9 @@ textarea {
      width: 100%;
      margin: 0
    }
+   a {
+     text-decoration: none;
+   }
 
 .tabs nav ul li {
   list-style: none;
@@ -108,7 +111,6 @@ textarea {
   background-color: papayawhip;
 }
 .tabs nav ul li a {
-  text-decoration: none;
   width: 100%;
   border: 1px solid lightgrey;
   display: inline-block;
@@ -173,8 +175,24 @@ table .bottom {
 .stats table .bottom td a {
   text-decoration: none;
 }
-
-
+.popular-repo h3 {
+  border: 1px solid grey;
+  margin: 0;
+  line-height: 2.5;
+  background-color: papayawhip;
+}
+.popular-repo ul {
+  border: 1px solid grey;
+  box-sizing: border-box;
+  margin: 0;
+  line-height: 2.5;
+}
+.popular-repo ul li {
+  display: inline-block;
+}
+.popular-repo ul .right {
+  float: right;
+}
 
 
 
