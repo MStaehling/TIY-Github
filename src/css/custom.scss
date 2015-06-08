@@ -1,0 +1,104 @@
+.tabs nav ul {
+    width: 100%;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.tabs nav ul li {
+    list-style: none;
+    text-align: center;
+    width: 50%;
+    display: inline-block;
+    float: left;
+    background-color: papayawhip;
+}
+.tabs nav ul li a {
+    width: 100%;
+    border: 1px solid lightgrey;
+    display: inline-block;
+    line-height: 2;
+    color: blue;
+}
+.tabs nav ul li a span {
+    font-size: 0.5em;
+}
+.tabs nav ul li.tab-current {
+    border-top: 3px solid black;
+    background-color: white;
+}
+.tabs nav ul li.tab-current a {
+    border: transparent;
+}
+.tabs nav ul li.tab-current a span {
+    color: black;
+}
+.profile {
+    width: 100%;
+    float: left;
+    font-size: 1em;
+}
+img {
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin: 1em;
+}
+.profile .details {
+    display: inline-block;
+}
+.profile div ul {
+    list-style: none;
+    padding: 0;
+}
+.profile div ul li span {
+    margin: 2px;
+    font-size: 1em;
+    color: grey;
+    width: 1em;
+}
+.stats {
+    border-bottom: 1px solid lightgrey;
+}
+button {
+    width: 100%;
+    background-color: #49653e;
+    color: white;
+    height: 3em;
+}
+table {
+    width: 100%;
+    text-align: center;
+}
+table {
+    margin: 1em 0;
+    box-sizing: border-box;
+}
+table .bottom {
+    padding-bottom: 1em;
+}
+.stats table .bottom td a {
+    text-decoration: none;
+}
+.popular-repo h3 {
+    border: 1px solid grey;
+    margin: 0;
+    line-height: 2.5;
+    background-color: papayawhip;
+}
+.popular-repo ul {
+    border: 1px solid grey;
+    box-sizing: border-box;
+    margin: 0;
+    line-height: 2.5;
+}
+.popular-repo ul li {
+    display: inline-block;
+}
+.popular-repo ul .right {
+    float: right;
+}
+.profile .popular-repo ul li a span {
+    width: 1em;
+    font-size: 1em;
+}
