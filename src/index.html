@@ -36,7 +36,7 @@
     </nav>
   </div>
   <div class="profile">
-    <img src="octocat.png">
+    <img src="octocat.png" id="avatar">
     <div class="details">
       <h2>The Octocat</h2>
       <p>Octocat</p>
@@ -101,5 +101,16 @@
 <!-- endbower -->
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+<script>
+$.getJSON('../api/github/users/octocat.json')
+.then(function(octocat){
+  console.log(octocat.avatar_url);
 
+  // Where is the URL for the avater? octocat.avatar
+  // Where does the URL go in my HTML page?
+  $avatar = $('img#avatar');
+  // What do we do once we have the underpants?
+$avatar.attr('src', octocat.avatar_url);
+});
+</script>
 </html>

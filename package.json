@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "browser-sync start --server --files='js/*.js,test/index.html,test/spec/**/*.js' --startPath test/index.html",
-    "start": "browser-sync start --server --files='src/index.html,src/css/*.css,src/js/*.js'",
+    "start": "browser-sync start --server --files='src/index.html,src/css/*.css,src/js/*.js' --startPath src/index.html",
     "postinstall": "npm run bower:install",
     "bower:install": "bower install --save",
     "postbower:install": "wiredep --src src/index.html"
