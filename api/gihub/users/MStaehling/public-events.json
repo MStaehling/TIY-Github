@@ -1,0 +1,2433 @@
+[
+  {
+    "id": "2877334224",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 34401403,
+      "name": "TheIronYard--Orlando/2015--SUMMER--FEE",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/257",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/257/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/257/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/257/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/257",
+        "id": 86687207,
+        "number": 257,
+        "title": "23 -- Return to the Planet of the APIs -- Michael Staehling",
+        "user": {
+          "login": "MStaehling",
+          "id": 7108911,
+          "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MStaehling",
+          "html_url": "https://github.com/MStaehling",
+          "followers_url": "https://api.github.com/users/MStaehling/followers",
+          "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+          "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+          "repos_url": "https://api.github.com/users/MStaehling/repos",
+          "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-06-09T18:16:32Z",
+        "updated_at": "2015-06-09T18:17:48Z",
+        "closed_at": null,
+        "body": "* [ ] **Yak Shaving**\r\n  * _WIP Issue_: `23 -- Return to the Planet of the APIs -- YOUR NAME`\r\n    * Link to your PR in `USERNAME.github.io`\r\n    * Link to your PR in `TIY-Github` from `develop` into `master`\r\n  *  _WIP Branch_:\r\n    * `USERNAME.github.io:journal-week-5` from `master`\r\n    * `TIY-Github`\r\n      * `develop` from `master`\r\n      * `feature/*` from `develop`\r\n  * _WIP Files_:\r\n    * `USERNAME.github.io`\r\n      * reflective journal\r\n      * tutorial journal\r\n      * bookmark journal\r\n      * `about/github-api.md`\r\n    * `TIY-Github`\r\n      * `src/index.html`\r\n      * `src/scss/main.scss`\r\n      * `src/css/.gitignore`\r\n      * `src/js/main.js`\r\n* [ ] **Journal, Week 5**\r\n  * [ ] draft of reflective journal\r\n  * [ ] draft of tutorial journal\r\n  * [ ] draft of bookmark journal\r\n* [ ] **Reading APIs**\r\n  * What are the endpoints for fetching...\r\n    * the profile data for a user?\r\n    * the organizations a user belongs to?\r\n    * the repositories a user has created?\r\n    * a filtered list of repositories?\r\n    * a sorted list of repositories?\r\n    * public events for a user?\r\n  * When fetching public events for a user...\r\n    * How many results are returned by default?\r\n    * What limitations exist on fetching _more_ results?\r\n    * What is the basic structure of the results?\r\n    * What fields are included in each result?\r\n    * What are the data types for each field?\r\n    * What are some of the different values for the `type` field?\r\n* [ ] **All your data is belong to us!**\r\n  * [ ] `feature/fetching-data`\r\n    * [ ] `octocat`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n    * [ ] `USERNAME`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n  * [ ] `feature/adding-placeholders`\r\n    * [ ] \"About\" column:\r\n      * [ ] avatar image\r\n      * [ ] name and login\r\n      * [ ] stats list\r\n    * [ ] \"Repositories\" column:\r\n      * [ ] Contributions\r\n      * [ ] Repositories\r\n      * [ ] Activity\r\n  * [ ] `feature/replacing-placeholders`\r\n    * [ ] `octocat`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity\r\n    * [ ] `USERNAME`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/comments/110453652",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/257#issuecomment-110453652",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/257",
+        "id": 110453652,
+        "user": {
+          "login": "MStaehling",
+          "id": 7108911,
+          "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MStaehling",
+          "html_url": "https://github.com/MStaehling",
+          "followers_url": "https://api.github.com/users/MStaehling/followers",
+          "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+          "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+          "repos_url": "https://api.github.com/users/MStaehling/repos",
+          "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-09T18:17:48Z",
+        "updated_at": "2015-06-09T18:17:48Z",
+        "body": "https://github.com/MStaehling/MStaehling.github.io/pull/23"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-09T18:17:48Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2877331745",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 34401403,
+      "name": "TheIronYard--Orlando/2015--SUMMER--FEE",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/257",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/257/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/257/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/257/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/257",
+        "id": 86687207,
+        "number": 257,
+        "title": "23 -- Return to the Planet of the APIs -- Michael Staehling",
+        "user": {
+          "login": "MStaehling",
+          "id": 7108911,
+          "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MStaehling",
+          "html_url": "https://github.com/MStaehling",
+          "followers_url": "https://api.github.com/users/MStaehling/followers",
+          "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+          "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+          "repos_url": "https://api.github.com/users/MStaehling/repos",
+          "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-06-09T18:16:32Z",
+        "updated_at": "2015-06-09T18:17:02Z",
+        "closed_at": null,
+        "body": "* [ ] **Yak Shaving**\r\n  * _WIP Issue_: `23 -- Return to the Planet of the APIs -- YOUR NAME`\r\n    * Link to your PR in `USERNAME.github.io`\r\n    * Link to your PR in `TIY-Github` from `develop` into `master`\r\n  *  _WIP Branch_:\r\n    * `USERNAME.github.io:journal-week-5` from `master`\r\n    * `TIY-Github`\r\n      * `develop` from `master`\r\n      * `feature/*` from `develop`\r\n  * _WIP Files_:\r\n    * `USERNAME.github.io`\r\n      * reflective journal\r\n      * tutorial journal\r\n      * bookmark journal\r\n      * `about/github-api.md`\r\n    * `TIY-Github`\r\n      * `src/index.html`\r\n      * `src/scss/main.scss`\r\n      * `src/css/.gitignore`\r\n      * `src/js/main.js`\r\n* [ ] **Journal, Week 5**\r\n  * [ ] draft of reflective journal\r\n  * [ ] draft of tutorial journal\r\n  * [ ] draft of bookmark journal\r\n* [ ] **Reading APIs**\r\n  * What are the endpoints for fetching...\r\n    * the profile data for a user?\r\n    * the organizations a user belongs to?\r\n    * the repositories a user has created?\r\n    * a filtered list of repositories?\r\n    * a sorted list of repositories?\r\n    * public events for a user?\r\n  * When fetching public events for a user...\r\n    * How many results are returned by default?\r\n    * What limitations exist on fetching _more_ results?\r\n    * What is the basic structure of the results?\r\n    * What fields are included in each result?\r\n    * What are the data types for each field?\r\n    * What are some of the different values for the `type` field?\r\n* [ ] **All your data is belong to us!**\r\n  * [ ] `feature/fetching-data`\r\n    * [ ] `octocat`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n    * [ ] `USERNAME`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n  * [ ] `feature/adding-placeholders`\r\n    * [ ] \"About\" column:\r\n      * [ ] avatar image\r\n      * [ ] name and login\r\n      * [ ] stats list\r\n    * [ ] \"Repositories\" column:\r\n      * [ ] Contributions\r\n      * [ ] Repositories\r\n      * [ ] Activity\r\n  * [ ] `feature/replacing-placeholders`\r\n    * [ ] `octocat`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity\r\n    * [ ] `USERNAME`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/comments/110453515",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/257#issuecomment-110453515",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/257",
+        "id": 110453515,
+        "user": {
+          "login": "MStaehling",
+          "id": 7108911,
+          "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MStaehling",
+          "html_url": "https://github.com/MStaehling",
+          "followers_url": "https://api.github.com/users/MStaehling/followers",
+          "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+          "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+          "repos_url": "https://api.github.com/users/MStaehling/repos",
+          "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-09T18:17:02Z",
+        "updated_at": "2015-06-09T18:17:02Z",
+        "body": "https://github.com/MStaehling/TIY-Github/pull/5"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-09T18:17:03Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2877330148",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 34401403,
+      "name": "TheIronYard--Orlando/2015--SUMMER--FEE",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/257",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/257/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/257/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/257/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/257",
+        "id": 86687207,
+        "number": 257,
+        "title": "23 -- Return to the Planet of the APIs -- Michael Staehling",
+        "user": {
+          "login": "MStaehling",
+          "id": 7108911,
+          "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MStaehling",
+          "html_url": "https://github.com/MStaehling",
+          "followers_url": "https://api.github.com/users/MStaehling/followers",
+          "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+          "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+          "repos_url": "https://api.github.com/users/MStaehling/repos",
+          "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-06-09T18:16:32Z",
+        "updated_at": "2015-06-09T18:16:32Z",
+        "closed_at": null,
+        "body": "* [ ] **Yak Shaving**\r\n  * _WIP Issue_: `23 -- Return to the Planet of the APIs -- YOUR NAME`\r\n    * Link to your PR in `USERNAME.github.io`\r\n    * Link to your PR in `TIY-Github` from `develop` into `master`\r\n  *  _WIP Branch_:\r\n    * `USERNAME.github.io:journal-week-5` from `master`\r\n    * `TIY-Github`\r\n      * `develop` from `master`\r\n      * `feature/*` from `develop`\r\n  * _WIP Files_:\r\n    * `USERNAME.github.io`\r\n      * reflective journal\r\n      * tutorial journal\r\n      * bookmark journal\r\n      * `about/github-api.md`\r\n    * `TIY-Github`\r\n      * `src/index.html`\r\n      * `src/scss/main.scss`\r\n      * `src/css/.gitignore`\r\n      * `src/js/main.js`\r\n* [ ] **Journal, Week 5**\r\n  * [ ] draft of reflective journal\r\n  * [ ] draft of tutorial journal\r\n  * [ ] draft of bookmark journal\r\n* [ ] **Reading APIs**\r\n  * What are the endpoints for fetching...\r\n    * the profile data for a user?\r\n    * the organizations a user belongs to?\r\n    * the repositories a user has created?\r\n    * a filtered list of repositories?\r\n    * a sorted list of repositories?\r\n    * public events for a user?\r\n  * When fetching public events for a user...\r\n    * How many results are returned by default?\r\n    * What limitations exist on fetching _more_ results?\r\n    * What is the basic structure of the results?\r\n    * What fields are included in each result?\r\n    * What are the data types for each field?\r\n    * What are some of the different values for the `type` field?\r\n* [ ] **All your data is belong to us!**\r\n  * [ ] `feature/fetching-data`\r\n    * [ ] `octocat`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n    * [ ] `USERNAME`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n  * [ ] `feature/adding-placeholders`\r\n    * [ ] \"About\" column:\r\n      * [ ] avatar image\r\n      * [ ] name and login\r\n      * [ ] stats list\r\n    * [ ] \"Repositories\" column:\r\n      * [ ] Contributions\r\n      * [ ] Repositories\r\n      * [ ] Activity\r\n  * [ ] `feature/replacing-placeholders`\r\n    * [ ] `octocat`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity\r\n    * [ ] `USERNAME`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-09T18:16:32Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2877307310",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 36682423,
+      "name": "MStaehling/TIY-Github",
+      "url": "https://api.github.com/repos/MStaehling/TIY-Github"
+    },
+    "payload": {
+      "ref": "feature/sass-refactor",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-06-09T18:09:50Z"
+  },
+  {
+    "id": "2877306900",
+    "type": "PushEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 36682423,
+      "name": "MStaehling/TIY-Github",
+      "url": "https://api.github.com/repos/MStaehling/TIY-Github"
+    },
+    "payload": {
+      "push_id": 689922754,
+      "size": 3,
+      "distinct_size": 1,
+      "ref": "refs/heads/develop",
+      "head": "15904b4fda93397396b0d0ee85fa6e66f753fe40",
+      "before": "03ebbbe398806a666e85b931d997c85eb10b3f83",
+      "commits": [
+        {
+          "sha": "d9002414d0030212c633727dd5ee1685a578402b",
+          "author": {
+            "email": "Michael.staehling@gmail.com",
+            "name": "Michael Staehling"
+          },
+          "message": "class refactoring",
+          "distinct": false,
+          "url": "https://api.github.com/repos/MStaehling/TIY-Github/commits/d9002414d0030212c633727dd5ee1685a578402b"
+        },
+        {
+          "sha": "5ec4b5bb8f5703f15839136b185be0623357a3d1",
+          "author": {
+            "email": "Michael.staehling@gmail.com",
+            "name": "Michael Staehling"
+          },
+          "message": "class work and moving files around",
+          "distinct": false,
+          "url": "https://api.github.com/repos/MStaehling/TIY-Github/commits/5ec4b5bb8f5703f15839136b185be0623357a3d1"
+        },
+        {
+          "sha": "15904b4fda93397396b0d0ee85fa6e66f753fe40",
+          "author": {
+            "email": "Michael.staehling@gmail.com",
+            "name": "Michael Staehling"
+          },
+          "message": "Merge pull request #9 from MStaehling/feature/sass-refactor\n\nclass refactoring",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MStaehling/TIY-Github/commits/15904b4fda93397396b0d0ee85fa6e66f753fe40"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-09T18:09:42Z"
+  },
+  {
+    "id": "2877306838",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 36682423,
+      "name": "MStaehling/TIY-Github",
+      "url": "https://api.github.com/repos/MStaehling/TIY-Github"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 9,
+      "pull_request": {
+        "url": "https://api.github.com/repos/MStaehling/TIY-Github/pulls/9",
+        "id": 37183473,
+        "html_url": "https://github.com/MStaehling/TIY-Github/pull/9",
+        "diff_url": "https://github.com/MStaehling/TIY-Github/pull/9.diff",
+        "patch_url": "https://github.com/MStaehling/TIY-Github/pull/9.patch",
+        "issue_url": "https://api.github.com/repos/MStaehling/TIY-Github/issues/9",
+        "number": 9,
+        "state": "closed",
+        "locked": false,
+        "title": "class refactoring",
+        "user": {
+          "login": "MStaehling",
+          "id": 7108911,
+          "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MStaehling",
+          "html_url": "https://github.com/MStaehling",
+          "followers_url": "https://api.github.com/users/MStaehling/followers",
+          "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+          "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+          "repos_url": "https://api.github.com/users/MStaehling/repos",
+          "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-06-08T18:47:42Z",
+        "updated_at": "2015-06-09T18:09:41Z",
+        "closed_at": "2015-06-09T18:09:41Z",
+        "merged_at": "2015-06-09T18:09:41Z",
+        "merge_commit_sha": "8adab96ecef2095292799600a183b546fd58d1db",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/MStaehling/TIY-Github/pulls/9/commits",
+        "review_comments_url": "https://api.github.com/repos/MStaehling/TIY-Github/pulls/9/comments",
+        "review_comment_url": "https://api.github.com/repos/MStaehling/TIY-Github/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/MStaehling/TIY-Github/issues/9/comments",
+        "statuses_url": "https://api.github.com/repos/MStaehling/TIY-Github/statuses/5ec4b5bb8f5703f15839136b185be0623357a3d1",
+        "head": {
+          "label": "MStaehling:feature/sass-refactor",
+          "ref": "feature/sass-refactor",
+          "sha": "5ec4b5bb8f5703f15839136b185be0623357a3d1",
+          "user": {
+            "login": "MStaehling",
+            "id": 7108911,
+            "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/MStaehling",
+            "html_url": "https://github.com/MStaehling",
+            "followers_url": "https://api.github.com/users/MStaehling/followers",
+            "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+            "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+            "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+            "repos_url": "https://api.github.com/users/MStaehling/repos",
+            "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 36682423,
+            "name": "TIY-Github",
+            "full_name": "MStaehling/TIY-Github",
+            "owner": {
+              "login": "MStaehling",
+              "id": 7108911,
+              "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/MStaehling",
+              "html_url": "https://github.com/MStaehling",
+              "followers_url": "https://api.github.com/users/MStaehling/followers",
+              "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+              "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+              "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+              "repos_url": "https://api.github.com/users/MStaehling/repos",
+              "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/MStaehling/TIY-Github",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/MStaehling/TIY-Github",
+            "forks_url": "https://api.github.com/repos/MStaehling/TIY-Github/forks",
+            "keys_url": "https://api.github.com/repos/MStaehling/TIY-Github/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/MStaehling/TIY-Github/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/MStaehling/TIY-Github/teams",
+            "hooks_url": "https://api.github.com/repos/MStaehling/TIY-Github/hooks",
+            "issue_events_url": "https://api.github.com/repos/MStaehling/TIY-Github/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/MStaehling/TIY-Github/events",
+            "assignees_url": "https://api.github.com/repos/MStaehling/TIY-Github/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/MStaehling/TIY-Github/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/MStaehling/TIY-Github/tags",
+            "blobs_url": "https://api.github.com/repos/MStaehling/TIY-Github/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/MStaehling/TIY-Github/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/MStaehling/TIY-Github/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/MStaehling/TIY-Github/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/MStaehling/TIY-Github/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/MStaehling/TIY-Github/languages",
+            "stargazers_url": "https://api.github.com/repos/MStaehling/TIY-Github/stargazers",
+            "contributors_url": "https://api.github.com/repos/MStaehling/TIY-Github/contributors",
+            "subscribers_url": "https://api.github.com/repos/MStaehling/TIY-Github/subscribers",
+            "subscription_url": "https://api.github.com/repos/MStaehling/TIY-Github/subscription",
+            "commits_url": "https://api.github.com/repos/MStaehling/TIY-Github/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/MStaehling/TIY-Github/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/MStaehling/TIY-Github/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/MStaehling/TIY-Github/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/MStaehling/TIY-Github/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/MStaehling/TIY-Github/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/MStaehling/TIY-Github/merges",
+            "archive_url": "https://api.github.com/repos/MStaehling/TIY-Github/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/MStaehling/TIY-Github/downloads",
+            "issues_url": "https://api.github.com/repos/MStaehling/TIY-Github/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/MStaehling/TIY-Github/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/MStaehling/TIY-Github/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/MStaehling/TIY-Github/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/MStaehling/TIY-Github/labels{/name}",
+            "releases_url": "https://api.github.com/repos/MStaehling/TIY-Github/releases{/id}",
+            "created_at": "2015-06-01T19:07:08Z",
+            "updated_at": "2015-06-06T01:00:01Z",
+            "pushed_at": "2015-06-09T18:09:41Z",
+            "git_url": "git://github.com/MStaehling/TIY-Github.git",
+            "ssh_url": "git@github.com:MStaehling/TIY-Github.git",
+            "clone_url": "https://github.com/MStaehling/TIY-Github.git",
+            "svn_url": "https://github.com/MStaehling/TIY-Github",
+            "homepage": null,
+            "size": 5044,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "ApacheConf",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 3,
+            "forks": 0,
+            "open_issues": 3,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "MStaehling:develop",
+          "ref": "develop",
+          "sha": "03ebbbe398806a666e85b931d997c85eb10b3f83",
+          "user": {
+            "login": "MStaehling",
+            "id": 7108911,
+            "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/MStaehling",
+            "html_url": "https://github.com/MStaehling",
+            "followers_url": "https://api.github.com/users/MStaehling/followers",
+            "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+            "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+            "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+            "repos_url": "https://api.github.com/users/MStaehling/repos",
+            "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 36682423,
+            "name": "TIY-Github",
+            "full_name": "MStaehling/TIY-Github",
+            "owner": {
+              "login": "MStaehling",
+              "id": 7108911,
+              "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/MStaehling",
+              "html_url": "https://github.com/MStaehling",
+              "followers_url": "https://api.github.com/users/MStaehling/followers",
+              "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+              "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+              "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+              "repos_url": "https://api.github.com/users/MStaehling/repos",
+              "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/MStaehling/TIY-Github",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/MStaehling/TIY-Github",
+            "forks_url": "https://api.github.com/repos/MStaehling/TIY-Github/forks",
+            "keys_url": "https://api.github.com/repos/MStaehling/TIY-Github/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/MStaehling/TIY-Github/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/MStaehling/TIY-Github/teams",
+            "hooks_url": "https://api.github.com/repos/MStaehling/TIY-Github/hooks",
+            "issue_events_url": "https://api.github.com/repos/MStaehling/TIY-Github/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/MStaehling/TIY-Github/events",
+            "assignees_url": "https://api.github.com/repos/MStaehling/TIY-Github/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/MStaehling/TIY-Github/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/MStaehling/TIY-Github/tags",
+            "blobs_url": "https://api.github.com/repos/MStaehling/TIY-Github/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/MStaehling/TIY-Github/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/MStaehling/TIY-Github/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/MStaehling/TIY-Github/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/MStaehling/TIY-Github/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/MStaehling/TIY-Github/languages",
+            "stargazers_url": "https://api.github.com/repos/MStaehling/TIY-Github/stargazers",
+            "contributors_url": "https://api.github.com/repos/MStaehling/TIY-Github/contributors",
+            "subscribers_url": "https://api.github.com/repos/MStaehling/TIY-Github/subscribers",
+            "subscription_url": "https://api.github.com/repos/MStaehling/TIY-Github/subscription",
+            "commits_url": "https://api.github.com/repos/MStaehling/TIY-Github/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/MStaehling/TIY-Github/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/MStaehling/TIY-Github/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/MStaehling/TIY-Github/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/MStaehling/TIY-Github/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/MStaehling/TIY-Github/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/MStaehling/TIY-Github/merges",
+            "archive_url": "https://api.github.com/repos/MStaehling/TIY-Github/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/MStaehling/TIY-Github/downloads",
+            "issues_url": "https://api.github.com/repos/MStaehling/TIY-Github/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/MStaehling/TIY-Github/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/MStaehling/TIY-Github/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/MStaehling/TIY-Github/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/MStaehling/TIY-Github/labels{/name}",
+            "releases_url": "https://api.github.com/repos/MStaehling/TIY-Github/releases{/id}",
+            "created_at": "2015-06-01T19:07:08Z",
+            "updated_at": "2015-06-06T01:00:01Z",
+            "pushed_at": "2015-06-09T18:09:41Z",
+            "git_url": "git://github.com/MStaehling/TIY-Github.git",
+            "ssh_url": "git@github.com:MStaehling/TIY-Github.git",
+            "clone_url": "https://github.com/MStaehling/TIY-Github.git",
+            "svn_url": "https://github.com/MStaehling/TIY-Github",
+            "homepage": null,
+            "size": 5044,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "ApacheConf",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 3,
+            "forks": 0,
+            "open_issues": 3,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/MStaehling/TIY-Github/pulls/9"
+          },
+          "html": {
+            "href": "https://github.com/MStaehling/TIY-Github/pull/9"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/MStaehling/TIY-Github/issues/9"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/MStaehling/TIY-Github/issues/9/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/MStaehling/TIY-Github/pulls/9/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/MStaehling/TIY-Github/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/MStaehling/TIY-Github/pulls/9/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/MStaehling/TIY-Github/statuses/5ec4b5bb8f5703f15839136b185be0623357a3d1"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "MStaehling",
+          "id": 7108911,
+          "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MStaehling",
+          "html_url": "https://github.com/MStaehling",
+          "followers_url": "https://api.github.com/users/MStaehling/followers",
+          "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+          "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+          "repos_url": "https://api.github.com/users/MStaehling/repos",
+          "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 2,
+        "additions": 120,
+        "deletions": 109,
+        "changed_files": 5
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-09T18:09:41Z"
+  },
+  {
+    "id": "2877299608",
+    "type": "PushEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 36682423,
+      "name": "MStaehling/TIY-Github",
+      "url": "https://api.github.com/repos/MStaehling/TIY-Github"
+    },
+    "payload": {
+      "push_id": 689920190,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/sass-refactor",
+      "head": "5ec4b5bb8f5703f15839136b185be0623357a3d1",
+      "before": "d9002414d0030212c633727dd5ee1685a578402b",
+      "commits": [
+        {
+          "sha": "5ec4b5bb8f5703f15839136b185be0623357a3d1",
+          "author": {
+            "email": "Michael.staehling@gmail.com",
+            "name": "Michael Staehling"
+          },
+          "message": "class work and moving files around",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MStaehling/TIY-Github/commits/5ec4b5bb8f5703f15839136b185be0623357a3d1"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-09T18:07:28Z"
+  },
+  {
+    "id": "2874758546",
+    "type": "PushEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 35052547,
+      "name": "MStaehling/MStaehling.github.io",
+      "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io"
+    },
+    "payload": {
+      "push_id": 688987437,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "64c08152b65b306fe6587f3435a4384fb3554efc",
+      "before": "f8b46c2aa1c34126b9bf5da4a208742b506d8fb7",
+      "commits": [
+        {
+          "sha": "64c08152b65b306fe6587f3435a4384fb3554efc",
+          "author": {
+            "email": "Michael.staehling@gmail.com",
+            "name": "Michael Staehling"
+          },
+          "message": "first draft of API",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/commits/64c08152b65b306fe6587f3435a4384fb3554efc"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-09T01:13:15Z"
+  },
+  {
+    "id": "2874574160",
+    "type": "PushEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 35052547,
+      "name": "MStaehling/MStaehling.github.io",
+      "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io"
+    },
+    "payload": {
+      "push_id": 688923605,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "f8b46c2aa1c34126b9bf5da4a208742b506d8fb7",
+      "before": "00e9fa42b68afafd6fb8c8c9c7e66edb79e8733f",
+      "commits": [
+        {
+          "sha": "f8b46c2aa1c34126b9bf5da4a208742b506d8fb7",
+          "author": {
+            "email": "Michael.staehling@gmail.com",
+            "name": "Michael Staehling"
+          },
+          "message": "2nd draft",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/commits/f8b46c2aa1c34126b9bf5da4a208742b506d8fb7"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T23:31:35Z"
+  },
+  {
+    "id": "2874456871",
+    "type": "PushEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 35052547,
+      "name": "MStaehling/MStaehling.github.io",
+      "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io"
+    },
+    "payload": {
+      "push_id": 688883523,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "00e9fa42b68afafd6fb8c8c9c7e66edb79e8733f",
+      "before": "79c1789e4a5e2c32eeee340d0d86f7b49e7304f6",
+      "commits": [
+        {
+          "sha": "00e9fa42b68afafd6fb8c8c9c7e66edb79e8733f",
+          "author": {
+            "email": "Michael.staehling@gmail.com",
+            "name": "Michael Staehling"
+          },
+          "message": "first draft",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/commits/00e9fa42b68afafd6fb8c8c9c7e66edb79e8733f"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T22:38:10Z"
+  },
+  {
+    "id": "2874411426",
+    "type": "PushEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 35052547,
+      "name": "MStaehling/MStaehling.github.io",
+      "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io"
+    },
+    "payload": {
+      "push_id": 688867723,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "79c1789e4a5e2c32eeee340d0d86f7b49e7304f6",
+      "before": "ea3c32cbfea0684d5aa4aa12ef844c4a19c5159d",
+      "commits": [
+        {
+          "sha": "79c1789e4a5e2c32eeee340d0d86f7b49e7304f6",
+          "author": {
+            "email": "Michael.staehling@gmail.com",
+            "name": "Michael Staehling"
+          },
+          "message": "coolers.co",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/commits/79c1789e4a5e2c32eeee340d0d86f7b49e7304f6"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T22:19:53Z"
+  },
+  {
+    "id": "2874381031",
+    "type": "PushEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 35052547,
+      "name": "MStaehling/MStaehling.github.io",
+      "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io"
+    },
+    "payload": {
+      "push_id": 688857406,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "ea3c32cbfea0684d5aa4aa12ef844c4a19c5159d",
+      "before": "879e5b061261faa808a2312136d471ac6b133cf8",
+      "commits": [
+        {
+          "sha": "ea3c32cbfea0684d5aa4aa12ef844c4a19c5159d",
+          "author": {
+            "email": "Michael.staehling@gmail.com",
+            "name": "Michael Staehling"
+          },
+          "message": "Update journal-week-4-tutorial.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/commits/ea3c32cbfea0684d5aa4aa12ef844c4a19c5159d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T22:08:25Z"
+  },
+  {
+    "id": "2874375950",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 34401403,
+      "name": "TheIronYard--Orlando/2015--SUMMER--FEE",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/200",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/200/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/200/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/200/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/200",
+        "id": 83633343,
+        "number": 200,
+        "title": "17 -- HTMLrats -- Michael Staehling",
+        "user": {
+          "login": "MStaehling",
+          "id": 7108911,
+          "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MStaehling",
+          "html_url": "https://github.com/MStaehling",
+          "followers_url": "https://api.github.com/users/MStaehling/followers",
+          "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+          "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+          "repos_url": "https://api.github.com/users/MStaehling/repos",
+          "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/labels/Keep%20Practicing",
+            "name": "Keep Practicing",
+            "color": "fbca04"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": {
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/milestones/18",
+          "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/milestones/17%20--%20HTMLrats",
+          "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/milestones/18/labels",
+          "id": 1148174,
+          "number": 18,
+          "title": "17 -- HTMLrats",
+          "description": "",
+          "creator": {
+            "login": "al-the-x",
+            "id": 96015,
+            "avatar_url": "https://avatars.githubusercontent.com/u/96015?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/al-the-x",
+            "html_url": "https://github.com/al-the-x",
+            "followers_url": "https://api.github.com/users/al-the-x/followers",
+            "following_url": "https://api.github.com/users/al-the-x/following{/other_user}",
+            "gists_url": "https://api.github.com/users/al-the-x/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/al-the-x/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/al-the-x/subscriptions",
+            "organizations_url": "https://api.github.com/users/al-the-x/orgs",
+            "repos_url": "https://api.github.com/users/al-the-x/repos",
+            "events_url": "https://api.github.com/users/al-the-x/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/al-the-x/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "open_issues": 3,
+          "closed_issues": 7,
+          "state": "open",
+          "created_at": "2015-06-03T19:47:47Z",
+          "updated_at": "2015-06-08T22:06:31Z",
+          "due_on": "2015-06-02T04:00:00Z",
+          "closed_at": null
+        },
+        "comments": 5,
+        "created_at": "2015-06-01T18:23:50Z",
+        "updated_at": "2015-06-08T22:06:31Z",
+        "closed_at": "2015-06-08T22:06:31Z",
+        "body": "* [x] **Yak Shaving**\r\n  * _WIP Issue_: `17 -- HTMLrats`\r\n  *  _WIP Branch_:\r\n    * `USERNAME.github.io:journal-week-4`\r\n    * `TIY-Github:master`\r\n    * `TIY-Github:yak-shaving`\r\n  * _WIP Files_:\r\n    * `USERNAME.github.io`\r\n      * [x] reflective journal\r\n      * [x] tutorial journal\r\n    * `TIY-Github`: see below\r\n* [ ] How does the API handle authentication?\r\n   * [ ] Do I need to authenticate?\r\n   * [ ] What can I do with an unauthenticated request?\r\n   * [x] How can I authenticate my request? (3 ways)\r\n * [ ] How do I ask the API for...\r\n   * [ ] The profile information for a specific user?\r\n   * [ ] The repository listing for a specific user?\r\n   * [ ] The recent, public activity for a specific user?\r\n * [x] Is there a limit to the number of requests I can make?\r\n    * [x] Is there a way of extending that limit?\r\n    * [x] What happens when I hit the limit?\r\n * [ ] What if there is a lot of data returned?\r\n    * [ ] How can I ask for more (or less) data from a request?\r\n    * [ ] How do I know that there is more data available?\r\n\r\n* [x] repository called TIY-Github tree:\r\n   * [x] api/\r\n      * [x] github/\r\n         * [x] users/\r\n* [x] dist/\r\n* [x] specs/\r\n* [x] src/\r\n    * [x] scss/\r\n    * [x] tests/\r\n* [x] create bower.json and package.json files at the top of the repository (i.e. NOT in src/), and use Yeoman to initialize H5BP and Mocha into src/. Create a .gitignore in dist/ that excludes everything except itself.\r\n* [x] Skitch of my github page\r\n* [x] Fetch Octocat\r\n    * [x] Repo\r\n    * [x] profile"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-08T22:06:31Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2873916174",
+    "type": "PushEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 35052547,
+      "name": "MStaehling/MStaehling.github.io",
+      "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io"
+    },
+    "payload": {
+      "push_id": 688694438,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "879e5b061261faa808a2312136d471ac6b133cf8",
+      "before": "34e1a1d56dd0d0265195a80443654c0f1ad9d88d",
+      "commits": [
+        {
+          "sha": "879e5b061261faa808a2312136d471ac6b133cf8",
+          "author": {
+            "email": "Michael.staehling@gmail.com",
+            "name": "Michael Staehling"
+          },
+          "message": "setting up questions to be answered",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/commits/879e5b061261faa808a2312136d471ac6b133cf8"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T19:39:14Z"
+  },
+  {
+    "id": "2873886790",
+    "type": "PushEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 35052547,
+      "name": "MStaehling/MStaehling.github.io",
+      "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io"
+    },
+    "payload": {
+      "push_id": 688683649,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "34e1a1d56dd0d0265195a80443654c0f1ad9d88d",
+      "before": "541a3a52860d5e7eda87e1a9f8f3976ccb95324b",
+      "commits": [
+        {
+          "sha": "34e1a1d56dd0d0265195a80443654c0f1ad9d88d",
+          "author": {
+            "email": "Michael.staehling@gmail.com",
+            "name": "Michael Staehling"
+          },
+          "message": "Create github-api.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/commits/34e1a1d56dd0d0265195a80443654c0f1ad9d88d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T19:29:18Z"
+  },
+  {
+    "id": "2873882838",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 34401403,
+      "name": "TheIronYard--Orlando/2015--SUMMER--FEE",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242",
+        "id": 86229326,
+        "number": 242,
+        "title": "22 -- Planet of the APIs -- Michael Staehling",
+        "user": {
+          "login": "MStaehling",
+          "id": 7108911,
+          "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MStaehling",
+          "html_url": "https://github.com/MStaehling",
+          "followers_url": "https://api.github.com/users/MStaehling/followers",
+          "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+          "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+          "repos_url": "https://api.github.com/users/MStaehling/repos",
+          "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-06-08T15:45:08Z",
+        "updated_at": "2015-06-08T19:27:58Z",
+        "closed_at": null,
+        "body": "* [ ] **Yak Shaving**\r\n  * _WIP Issue_: `22 -- Planet of the APIs -- YOUR NAME`\r\n    * Link to your PR in `USERNAME.github.io`\r\n    * Link to your PR in `TIY-Github` from `develop` into `master`\r\n  *  _WIP Branch_:\r\n    * `USERNAME.github.io:journal-week-5` from `master`\r\n    * `TIY-Github`\r\n      * `develop` from `master`\r\n      * `feature/*` from `develop`\r\n  * _WIP Files_:\r\n    * `USERNAME.github.io`\r\n      * reflective journal\r\n      * tutorial journal\r\n      * bookmark journal\r\n      * `about/github-api.md`\r\n    * `TIY-Github`\r\n      * `src/index.html`\r\n      * `src/scss/main.scss`\r\n      * `src/css/.gitignore`\r\n      * `src/js/main.js`\r\n* [ ] **Journal, Week 5**\r\n  * [ ] draft of reflective journal\r\n  * [ ] draft of tutorial journal\r\n  * [ ] draft of bookmark journal\r\n* [ ] **Reading APIs**\r\n  * [ ] How does the API handle authentication?\r\n    * [ ] Do I need to authenticate?\r\n    * [ ] What can I do with an unauthenticated request?\r\n    * [ ] How can I authenticate my request? (3 ways)\r\n  * [ ] How do I ask the API for...\r\n    * [ ] The profile information for a specific user?\r\n    * [ ] The repository listing for a specific user?\r\n    * [ ] The recent, public activity for a specific user?\r\n  * [ ] Is there a limit to the number of requests I can make?\r\n    * [ ] Is there a way of extending that limit?\r\n    * [ ] What happens when I hit the limit?\r\n  * [ ] What if there is a _lot_ of data returned?\r\n    * [ ] How can I ask for more (or less) data from a request?\r\n    * [ ] How do I know that there is more data available?\r\n* [ ] **All your data is belong to us!**\r\n  * [ ] `feature/fetching-data`\r\n    * [ ] `octocat`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n    * [ ] `USERNAME`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n  * [ ] `feature/adding-placeholders`\r\n    * [ ] \"About\" column:\r\n      * [ ] avatar image\r\n      * [ ] name and login\r\n      * [ ] stats list\r\n    * [ ] \"Repositories\" column:\r\n      * [ ] Contributions\r\n      * [ ] Repositories\r\n      * [ ] Activity\r\n  * [ ] `feature/replacing-placeholders`\r\n    * [ ] `octocat`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity\r\n    * [ ] `USERNAME`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/comments/110113647",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242#issuecomment-110113647",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242",
+        "id": 110113647,
+        "user": {
+          "login": "MStaehling",
+          "id": 7108911,
+          "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MStaehling",
+          "html_url": "https://github.com/MStaehling",
+          "followers_url": "https://api.github.com/users/MStaehling/followers",
+          "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+          "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+          "repos_url": "https://api.github.com/users/MStaehling/repos",
+          "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-08T19:27:58Z",
+        "updated_at": "2015-06-08T19:27:58Z",
+        "body": "https://github.com/MStaehling/MStaehling.github.io/pull/23"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-08T19:27:59Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2873881792",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 35052547,
+      "name": "MStaehling/MStaehling.github.io",
+      "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 23,
+      "pull_request": {
+        "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/pulls/23",
+        "id": 37187068,
+        "html_url": "https://github.com/MStaehling/MStaehling.github.io/pull/23",
+        "diff_url": "https://github.com/MStaehling/MStaehling.github.io/pull/23.diff",
+        "patch_url": "https://github.com/MStaehling/MStaehling.github.io/pull/23.patch",
+        "issue_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/issues/23",
+        "number": 23,
+        "state": "open",
+        "locked": false,
+        "title": "Journal week 5",
+        "user": {
+          "login": "MStaehling",
+          "id": 7108911,
+          "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MStaehling",
+          "html_url": "https://github.com/MStaehling",
+          "followers_url": "https://api.github.com/users/MStaehling/followers",
+          "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+          "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+          "repos_url": "https://api.github.com/users/MStaehling/repos",
+          "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-06-08T19:27:38Z",
+        "updated_at": "2015-06-08T19:27:38Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/pulls/23/commits",
+        "review_comments_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/pulls/23/comments",
+        "review_comment_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/issues/23/comments",
+        "statuses_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/statuses/541a3a52860d5e7eda87e1a9f8f3976ccb95324b",
+        "head": {
+          "label": "MStaehling:journal-week-5",
+          "ref": "journal-week-5",
+          "sha": "541a3a52860d5e7eda87e1a9f8f3976ccb95324b",
+          "user": {
+            "login": "MStaehling",
+            "id": 7108911,
+            "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/MStaehling",
+            "html_url": "https://github.com/MStaehling",
+            "followers_url": "https://api.github.com/users/MStaehling/followers",
+            "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+            "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+            "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+            "repos_url": "https://api.github.com/users/MStaehling/repos",
+            "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 35052547,
+            "name": "MStaehling.github.io",
+            "full_name": "MStaehling/MStaehling.github.io",
+            "owner": {
+              "login": "MStaehling",
+              "id": 7108911,
+              "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/MStaehling",
+              "html_url": "https://github.com/MStaehling",
+              "followers_url": "https://api.github.com/users/MStaehling/followers",
+              "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+              "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+              "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+              "repos_url": "https://api.github.com/users/MStaehling/repos",
+              "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/MStaehling/MStaehling.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io",
+            "forks_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/forks",
+            "keys_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/events",
+            "assignees_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/merges",
+            "archive_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/releases{/id}",
+            "created_at": "2015-05-04T18:41:15Z",
+            "updated_at": "2015-06-03T20:48:30Z",
+            "pushed_at": "2015-06-08T19:26:52Z",
+            "git_url": "git://github.com/MStaehling/MStaehling.github.io.git",
+            "ssh_url": "git@github.com:MStaehling/MStaehling.github.io.git",
+            "clone_url": "https://github.com/MStaehling/MStaehling.github.io.git",
+            "svn_url": "https://github.com/MStaehling/MStaehling.github.io",
+            "homepage": "http://MStaehling.github.io",
+            "size": 748,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 1,
+            "mirror_url": null,
+            "open_issues_count": 5,
+            "forks": 1,
+            "open_issues": 5,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "MStaehling:master",
+          "ref": "master",
+          "sha": "bca1a797ea23f762d04e8dfe060ad3d5377c6dab",
+          "user": {
+            "login": "MStaehling",
+            "id": 7108911,
+            "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/MStaehling",
+            "html_url": "https://github.com/MStaehling",
+            "followers_url": "https://api.github.com/users/MStaehling/followers",
+            "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+            "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+            "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+            "repos_url": "https://api.github.com/users/MStaehling/repos",
+            "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 35052547,
+            "name": "MStaehling.github.io",
+            "full_name": "MStaehling/MStaehling.github.io",
+            "owner": {
+              "login": "MStaehling",
+              "id": 7108911,
+              "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/MStaehling",
+              "html_url": "https://github.com/MStaehling",
+              "followers_url": "https://api.github.com/users/MStaehling/followers",
+              "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+              "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+              "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+              "repos_url": "https://api.github.com/users/MStaehling/repos",
+              "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/MStaehling/MStaehling.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io",
+            "forks_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/forks",
+            "keys_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/events",
+            "assignees_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/merges",
+            "archive_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/releases{/id}",
+            "created_at": "2015-05-04T18:41:15Z",
+            "updated_at": "2015-06-03T20:48:30Z",
+            "pushed_at": "2015-06-08T19:26:52Z",
+            "git_url": "git://github.com/MStaehling/MStaehling.github.io.git",
+            "ssh_url": "git@github.com:MStaehling/MStaehling.github.io.git",
+            "clone_url": "https://github.com/MStaehling/MStaehling.github.io.git",
+            "svn_url": "https://github.com/MStaehling/MStaehling.github.io",
+            "homepage": "http://MStaehling.github.io",
+            "size": 748,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 1,
+            "mirror_url": null,
+            "open_issues_count": 5,
+            "forks": 1,
+            "open_issues": 5,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/MStaehling/MStaehling.github.io/pulls/23"
+          },
+          "html": {
+            "href": "https://github.com/MStaehling/MStaehling.github.io/pull/23"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/MStaehling/MStaehling.github.io/issues/23"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/MStaehling/MStaehling.github.io/issues/23/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/MStaehling/MStaehling.github.io/pulls/23/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/MStaehling/MStaehling.github.io/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/MStaehling/MStaehling.github.io/pulls/23/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/MStaehling/MStaehling.github.io/statuses/541a3a52860d5e7eda87e1a9f8f3976ccb95324b"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 3,
+        "additions": 5,
+        "deletions": 0,
+        "changed_files": 3
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-08T19:27:38Z"
+  },
+  {
+    "id": "2873879440",
+    "type": "PushEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 35052547,
+      "name": "MStaehling/MStaehling.github.io",
+      "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io"
+    },
+    "payload": {
+      "push_id": 688680959,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "541a3a52860d5e7eda87e1a9f8f3976ccb95324b",
+      "before": "a71fe156327dfdd4fa0ef791e712dde87cebfcb6",
+      "commits": [
+        {
+          "sha": "541a3a52860d5e7eda87e1a9f8f3976ccb95324b",
+          "author": {
+            "email": "Michael.staehling@gmail.com",
+            "name": "Michael Staehling"
+          },
+          "message": "Create journal-week-5-bookmark.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/commits/541a3a52860d5e7eda87e1a9f8f3976ccb95324b"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T19:26:52Z"
+  },
+  {
+    "id": "2873874765",
+    "type": "PushEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 35052547,
+      "name": "MStaehling/MStaehling.github.io",
+      "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io"
+    },
+    "payload": {
+      "push_id": 688679289,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "a71fe156327dfdd4fa0ef791e712dde87cebfcb6",
+      "before": "ea687bd7e8018b1c2fb6dfb2bb3cedca5658e9e7",
+      "commits": [
+        {
+          "sha": "a71fe156327dfdd4fa0ef791e712dde87cebfcb6",
+          "author": {
+            "email": "Michael.staehling@gmail.com",
+            "name": "Michael Staehling"
+          },
+          "message": "Create journal-week-5-tutorial.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/commits/a71fe156327dfdd4fa0ef791e712dde87cebfcb6"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T19:25:19Z"
+  },
+  {
+    "id": "2873864821",
+    "type": "PushEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 35052547,
+      "name": "MStaehling/MStaehling.github.io",
+      "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io"
+    },
+    "payload": {
+      "push_id": 688675673,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "ea687bd7e8018b1c2fb6dfb2bb3cedca5658e9e7",
+      "before": "bca1a797ea23f762d04e8dfe060ad3d5377c6dab",
+      "commits": [
+        {
+          "sha": "ea687bd7e8018b1c2fb6dfb2bb3cedca5658e9e7",
+          "author": {
+            "email": "Michael.staehling@gmail.com",
+            "name": "Michael Staehling"
+          },
+          "message": "Create journal-week-5.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io/commits/ea687bd7e8018b1c2fb6dfb2bb3cedca5658e9e7"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T19:21:56Z"
+  },
+  {
+    "id": "2873859707",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 35052547,
+      "name": "MStaehling/MStaehling.github.io",
+      "url": "https://api.github.com/repos/MStaehling/MStaehling.github.io"
+    },
+    "payload": {
+      "ref": "journal-week-5",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-06-08T19:20:13Z"
+  },
+  {
+    "id": "2873827399",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 34401403,
+      "name": "TheIronYard--Orlando/2015--SUMMER--FEE",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242",
+        "id": 86229326,
+        "number": 242,
+        "title": "22 -- Planet of the APIs -- Michael Staehling",
+        "user": {
+          "login": "MStaehling",
+          "id": 7108911,
+          "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MStaehling",
+          "html_url": "https://github.com/MStaehling",
+          "followers_url": "https://api.github.com/users/MStaehling/followers",
+          "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+          "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+          "repos_url": "https://api.github.com/users/MStaehling/repos",
+          "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-06-08T15:45:08Z",
+        "updated_at": "2015-06-08T19:09:15Z",
+        "closed_at": null,
+        "body": "* [ ] **Yak Shaving**\r\n  * _WIP Issue_: `22 -- Planet of the APIs -- YOUR NAME`\r\n    * Link to your PR in `USERNAME.github.io`\r\n    * Link to your PR in `TIY-Github` from `develop` into `master`\r\n  *  _WIP Branch_:\r\n    * `USERNAME.github.io:journal-week-5` from `master`\r\n    * `TIY-Github`\r\n      * `develop` from `master`\r\n      * `feature/*` from `develop`\r\n  * _WIP Files_:\r\n    * `USERNAME.github.io`\r\n      * reflective journal\r\n      * tutorial journal\r\n      * bookmark journal\r\n      * `about/github-api.md`\r\n    * `TIY-Github`\r\n      * `src/index.html`\r\n      * `src/scss/main.scss`\r\n      * `src/css/.gitignore`\r\n      * `src/js/main.js`\r\n* [ ] **Journal, Week 5**\r\n  * [ ] draft of reflective journal\r\n  * [ ] draft of tutorial journal\r\n  * [ ] draft of bookmark journal\r\n* [ ] **Reading APIs**\r\n  * [ ] How does the API handle authentication?\r\n    * [ ] Do I need to authenticate?\r\n    * [ ] What can I do with an unauthenticated request?\r\n    * [ ] How can I authenticate my request? (3 ways)\r\n  * [ ] How do I ask the API for...\r\n    * [ ] The profile information for a specific user?\r\n    * [ ] The repository listing for a specific user?\r\n    * [ ] The recent, public activity for a specific user?\r\n  * [ ] Is there a limit to the number of requests I can make?\r\n    * [ ] Is there a way of extending that limit?\r\n    * [ ] What happens when I hit the limit?\r\n  * [ ] What if there is a _lot_ of data returned?\r\n    * [ ] How can I ask for more (or less) data from a request?\r\n    * [ ] How do I know that there is more data available?\r\n* [ ] **All your data is belong to us!**\r\n  * [ ] `feature/fetching-data`\r\n    * [ ] `octocat`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n    * [ ] `USERNAME`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n  * [ ] `feature/adding-placeholders`\r\n    * [ ] \"About\" column:\r\n      * [ ] avatar image\r\n      * [ ] name and login\r\n      * [ ] stats list\r\n    * [ ] \"Repositories\" column:\r\n      * [ ] Contributions\r\n      * [ ] Repositories\r\n      * [ ] Activity\r\n  * [ ] `feature/replacing-placeholders`\r\n    * [ ] `octocat`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity\r\n    * [ ] `USERNAME`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/comments/110109842",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242#issuecomment-110109842",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242",
+        "id": 110109842,
+        "user": {
+          "login": "MStaehling",
+          "id": 7108911,
+          "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MStaehling",
+          "html_url": "https://github.com/MStaehling",
+          "followers_url": "https://api.github.com/users/MStaehling/followers",
+          "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+          "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+          "repos_url": "https://api.github.com/users/MStaehling/repos",
+          "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-08T19:09:15Z",
+        "updated_at": "2015-06-08T19:09:15Z",
+        "body": "https://github.com/MStaehling/TIY-Github/pull/9"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-08T19:09:15Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2873802323",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 34401403,
+      "name": "TheIronYard--Orlando/2015--SUMMER--FEE",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242",
+        "id": 86229326,
+        "number": 242,
+        "title": "22 -- Planet of the APIs -- Michael Staehling",
+        "user": {
+          "login": "MStaehling",
+          "id": 7108911,
+          "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MStaehling",
+          "html_url": "https://github.com/MStaehling",
+          "followers_url": "https://api.github.com/users/MStaehling/followers",
+          "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+          "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+          "repos_url": "https://api.github.com/users/MStaehling/repos",
+          "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-06-08T15:45:08Z",
+        "updated_at": "2015-06-08T19:01:05Z",
+        "closed_at": null,
+        "body": "* [ ] **Yak Shaving**\r\n  * _WIP Issue_: `22 -- Planet of the APIs -- YOUR NAME`\r\n    * Link to your PR in `USERNAME.github.io`\r\n    * Link to your PR in `TIY-Github` from `develop` into `master`\r\n  *  _WIP Branch_:\r\n    * `USERNAME.github.io:journal-week-5` from `master`\r\n    * `TIY-Github`\r\n      * `develop` from `master`\r\n      * `feature/*` from `develop`\r\n  * _WIP Files_:\r\n    * `USERNAME.github.io`\r\n      * reflective journal\r\n      * tutorial journal\r\n      * bookmark journal\r\n      * `about/github-api.md`\r\n    * `TIY-Github`\r\n      * `src/index.html`\r\n      * `src/scss/main.scss`\r\n      * `src/css/.gitignore`\r\n      * `src/js/main.js`\r\n* [ ] **Journal, Week 5**\r\n  * [ ] draft of reflective journal\r\n  * [ ] draft of tutorial journal\r\n  * [ ] draft of bookmark journal\r\n* [ ] **Reading APIs**\r\n  * [ ] How does the API handle authentication?\r\n    * [ ] Do I need to authenticate?\r\n    * [ ] What can I do with an unauthenticated request?\r\n    * [ ] How can I authenticate my request? (3 ways)\r\n  * [ ] How do I ask the API for...\r\n    * [ ] The profile information for a specific user?\r\n    * [ ] The repository listing for a specific user?\r\n    * [ ] The recent, public activity for a specific user?\r\n  * [ ] Is there a limit to the number of requests I can make?\r\n    * [ ] Is there a way of extending that limit?\r\n    * [ ] What happens when I hit the limit?\r\n  * [ ] What if there is a _lot_ of data returned?\r\n    * [ ] How can I ask for more (or less) data from a request?\r\n    * [ ] How do I know that there is more data available?\r\n* [ ] **All your data is belong to us!**\r\n  * [ ] `feature/fetching-data`\r\n    * [ ] `octocat`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n    * [ ] `USERNAME`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n  * [ ] `feature/adding-placeholders`\r\n    * [ ] \"About\" column:\r\n      * [ ] avatar image\r\n      * [ ] name and login\r\n      * [ ] stats list\r\n    * [ ] \"Repositories\" column:\r\n      * [ ] Contributions\r\n      * [ ] Repositories\r\n      * [ ] Activity\r\n  * [ ] `feature/replacing-placeholders`\r\n    * [ ] `octocat`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity\r\n    * [ ] `USERNAME`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/comments/110108263",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242#issuecomment-110108263",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242",
+        "id": 110108263,
+        "user": {
+          "login": "MStaehling",
+          "id": 7108911,
+          "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MStaehling",
+          "html_url": "https://github.com/MStaehling",
+          "followers_url": "https://api.github.com/users/MStaehling/followers",
+          "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+          "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+          "repos_url": "https://api.github.com/users/MStaehling/repos",
+          "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-08T19:01:05Z",
+        "updated_at": "2015-06-08T19:01:05Z",
+        "body": "https://github.com/MStaehling/TIY-Github/pull/5"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-08T19:01:05Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2873760849",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 36682423,
+      "name": "MStaehling/TIY-Github",
+      "url": "https://api.github.com/repos/MStaehling/TIY-Github"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 9,
+      "pull_request": {
+        "url": "https://api.github.com/repos/MStaehling/TIY-Github/pulls/9",
+        "id": 37183473,
+        "html_url": "https://github.com/MStaehling/TIY-Github/pull/9",
+        "diff_url": "https://github.com/MStaehling/TIY-Github/pull/9.diff",
+        "patch_url": "https://github.com/MStaehling/TIY-Github/pull/9.patch",
+        "issue_url": "https://api.github.com/repos/MStaehling/TIY-Github/issues/9",
+        "number": 9,
+        "state": "open",
+        "locked": false,
+        "title": "class refactoring",
+        "user": {
+          "login": "MStaehling",
+          "id": 7108911,
+          "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MStaehling",
+          "html_url": "https://github.com/MStaehling",
+          "followers_url": "https://api.github.com/users/MStaehling/followers",
+          "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+          "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+          "repos_url": "https://api.github.com/users/MStaehling/repos",
+          "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-06-08T18:47:42Z",
+        "updated_at": "2015-06-08T18:47:42Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/MStaehling/TIY-Github/pulls/9/commits",
+        "review_comments_url": "https://api.github.com/repos/MStaehling/TIY-Github/pulls/9/comments",
+        "review_comment_url": "https://api.github.com/repos/MStaehling/TIY-Github/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/MStaehling/TIY-Github/issues/9/comments",
+        "statuses_url": "https://api.github.com/repos/MStaehling/TIY-Github/statuses/d9002414d0030212c633727dd5ee1685a578402b",
+        "head": {
+          "label": "MStaehling:feature/sass-refactor",
+          "ref": "feature/sass-refactor",
+          "sha": "d9002414d0030212c633727dd5ee1685a578402b",
+          "user": {
+            "login": "MStaehling",
+            "id": 7108911,
+            "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/MStaehling",
+            "html_url": "https://github.com/MStaehling",
+            "followers_url": "https://api.github.com/users/MStaehling/followers",
+            "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+            "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+            "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+            "repos_url": "https://api.github.com/users/MStaehling/repos",
+            "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 36682423,
+            "name": "TIY-Github",
+            "full_name": "MStaehling/TIY-Github",
+            "owner": {
+              "login": "MStaehling",
+              "id": 7108911,
+              "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/MStaehling",
+              "html_url": "https://github.com/MStaehling",
+              "followers_url": "https://api.github.com/users/MStaehling/followers",
+              "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+              "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+              "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+              "repos_url": "https://api.github.com/users/MStaehling/repos",
+              "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/MStaehling/TIY-Github",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/MStaehling/TIY-Github",
+            "forks_url": "https://api.github.com/repos/MStaehling/TIY-Github/forks",
+            "keys_url": "https://api.github.com/repos/MStaehling/TIY-Github/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/MStaehling/TIY-Github/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/MStaehling/TIY-Github/teams",
+            "hooks_url": "https://api.github.com/repos/MStaehling/TIY-Github/hooks",
+            "issue_events_url": "https://api.github.com/repos/MStaehling/TIY-Github/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/MStaehling/TIY-Github/events",
+            "assignees_url": "https://api.github.com/repos/MStaehling/TIY-Github/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/MStaehling/TIY-Github/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/MStaehling/TIY-Github/tags",
+            "blobs_url": "https://api.github.com/repos/MStaehling/TIY-Github/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/MStaehling/TIY-Github/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/MStaehling/TIY-Github/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/MStaehling/TIY-Github/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/MStaehling/TIY-Github/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/MStaehling/TIY-Github/languages",
+            "stargazers_url": "https://api.github.com/repos/MStaehling/TIY-Github/stargazers",
+            "contributors_url": "https://api.github.com/repos/MStaehling/TIY-Github/contributors",
+            "subscribers_url": "https://api.github.com/repos/MStaehling/TIY-Github/subscribers",
+            "subscription_url": "https://api.github.com/repos/MStaehling/TIY-Github/subscription",
+            "commits_url": "https://api.github.com/repos/MStaehling/TIY-Github/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/MStaehling/TIY-Github/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/MStaehling/TIY-Github/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/MStaehling/TIY-Github/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/MStaehling/TIY-Github/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/MStaehling/TIY-Github/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/MStaehling/TIY-Github/merges",
+            "archive_url": "https://api.github.com/repos/MStaehling/TIY-Github/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/MStaehling/TIY-Github/downloads",
+            "issues_url": "https://api.github.com/repos/MStaehling/TIY-Github/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/MStaehling/TIY-Github/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/MStaehling/TIY-Github/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/MStaehling/TIY-Github/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/MStaehling/TIY-Github/labels{/name}",
+            "releases_url": "https://api.github.com/repos/MStaehling/TIY-Github/releases{/id}",
+            "created_at": "2015-06-01T19:07:08Z",
+            "updated_at": "2015-06-06T01:00:01Z",
+            "pushed_at": "2015-06-08T18:45:24Z",
+            "git_url": "git://github.com/MStaehling/TIY-Github.git",
+            "ssh_url": "git@github.com:MStaehling/TIY-Github.git",
+            "clone_url": "https://github.com/MStaehling/TIY-Github.git",
+            "svn_url": "https://github.com/MStaehling/TIY-Github",
+            "homepage": null,
+            "size": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "ApacheConf",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 4,
+            "forks": 0,
+            "open_issues": 4,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "MStaehling:develop",
+          "ref": "develop",
+          "sha": "03ebbbe398806a666e85b931d997c85eb10b3f83",
+          "user": {
+            "login": "MStaehling",
+            "id": 7108911,
+            "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/MStaehling",
+            "html_url": "https://github.com/MStaehling",
+            "followers_url": "https://api.github.com/users/MStaehling/followers",
+            "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+            "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+            "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+            "repos_url": "https://api.github.com/users/MStaehling/repos",
+            "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 36682423,
+            "name": "TIY-Github",
+            "full_name": "MStaehling/TIY-Github",
+            "owner": {
+              "login": "MStaehling",
+              "id": 7108911,
+              "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/MStaehling",
+              "html_url": "https://github.com/MStaehling",
+              "followers_url": "https://api.github.com/users/MStaehling/followers",
+              "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+              "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+              "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+              "repos_url": "https://api.github.com/users/MStaehling/repos",
+              "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/MStaehling/TIY-Github",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/MStaehling/TIY-Github",
+            "forks_url": "https://api.github.com/repos/MStaehling/TIY-Github/forks",
+            "keys_url": "https://api.github.com/repos/MStaehling/TIY-Github/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/MStaehling/TIY-Github/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/MStaehling/TIY-Github/teams",
+            "hooks_url": "https://api.github.com/repos/MStaehling/TIY-Github/hooks",
+            "issue_events_url": "https://api.github.com/repos/MStaehling/TIY-Github/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/MStaehling/TIY-Github/events",
+            "assignees_url": "https://api.github.com/repos/MStaehling/TIY-Github/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/MStaehling/TIY-Github/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/MStaehling/TIY-Github/tags",
+            "blobs_url": "https://api.github.com/repos/MStaehling/TIY-Github/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/MStaehling/TIY-Github/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/MStaehling/TIY-Github/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/MStaehling/TIY-Github/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/MStaehling/TIY-Github/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/MStaehling/TIY-Github/languages",
+            "stargazers_url": "https://api.github.com/repos/MStaehling/TIY-Github/stargazers",
+            "contributors_url": "https://api.github.com/repos/MStaehling/TIY-Github/contributors",
+            "subscribers_url": "https://api.github.com/repos/MStaehling/TIY-Github/subscribers",
+            "subscription_url": "https://api.github.com/repos/MStaehling/TIY-Github/subscription",
+            "commits_url": "https://api.github.com/repos/MStaehling/TIY-Github/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/MStaehling/TIY-Github/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/MStaehling/TIY-Github/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/MStaehling/TIY-Github/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/MStaehling/TIY-Github/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/MStaehling/TIY-Github/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/MStaehling/TIY-Github/merges",
+            "archive_url": "https://api.github.com/repos/MStaehling/TIY-Github/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/MStaehling/TIY-Github/downloads",
+            "issues_url": "https://api.github.com/repos/MStaehling/TIY-Github/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/MStaehling/TIY-Github/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/MStaehling/TIY-Github/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/MStaehling/TIY-Github/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/MStaehling/TIY-Github/labels{/name}",
+            "releases_url": "https://api.github.com/repos/MStaehling/TIY-Github/releases{/id}",
+            "created_at": "2015-06-01T19:07:08Z",
+            "updated_at": "2015-06-06T01:00:01Z",
+            "pushed_at": "2015-06-08T18:45:24Z",
+            "git_url": "git://github.com/MStaehling/TIY-Github.git",
+            "ssh_url": "git@github.com:MStaehling/TIY-Github.git",
+            "clone_url": "https://github.com/MStaehling/TIY-Github.git",
+            "svn_url": "https://github.com/MStaehling/TIY-Github",
+            "homepage": null,
+            "size": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "ApacheConf",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 4,
+            "forks": 0,
+            "open_issues": 4,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/MStaehling/TIY-Github/pulls/9"
+          },
+          "html": {
+            "href": "https://github.com/MStaehling/TIY-Github/pull/9"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/MStaehling/TIY-Github/issues/9"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/MStaehling/TIY-Github/issues/9/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/MStaehling/TIY-Github/pulls/9/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/MStaehling/TIY-Github/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/MStaehling/TIY-Github/pulls/9/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/MStaehling/TIY-Github/statuses/d9002414d0030212c633727dd5ee1685a578402b"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 108,
+        "deletions": 108,
+        "changed_files": 4
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-08T18:47:43Z"
+  },
+  {
+    "id": "2873753348",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 36682423,
+      "name": "MStaehling/TIY-Github",
+      "url": "https://api.github.com/repos/MStaehling/TIY-Github"
+    },
+    "payload": {
+      "ref": "feature/sass-refactor",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-06-08T18:45:24Z"
+  },
+  {
+    "id": "2873279832",
+    "type": "PushEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 36682423,
+      "name": "MStaehling/TIY-Github",
+      "url": "https://api.github.com/repos/MStaehling/TIY-Github"
+    },
+    "payload": {
+      "push_id": 688468519,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/develop",
+      "head": "03ebbbe398806a666e85b931d997c85eb10b3f83",
+      "before": "5c9ebf552071029687e4f87aa6049eea1552d34a",
+      "commits": [
+        {
+          "sha": "03ebbbe398806a666e85b931d997c85eb10b3f83",
+          "author": {
+            "email": "Michael.staehling@gmail.com",
+            "name": "Michael Staehling"
+          },
+          "message": "updated package.json in class",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MStaehling/TIY-Github/commits/03ebbbe398806a666e85b931d997c85eb10b3f83"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T16:13:06Z"
+  },
+  {
+    "id": "2873179902",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 34401403,
+      "name": "TheIronYard--Orlando/2015--SUMMER--FEE",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/242",
+        "id": 86229326,
+        "number": 242,
+        "title": "22 -- Planet of the APIs -- Michael Staehling",
+        "user": {
+          "login": "MStaehling",
+          "id": 7108911,
+          "avatar_url": "https://avatars.githubusercontent.com/u/7108911?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MStaehling",
+          "html_url": "https://github.com/MStaehling",
+          "followers_url": "https://api.github.com/users/MStaehling/followers",
+          "following_url": "https://api.github.com/users/MStaehling/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MStaehling/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MStaehling/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MStaehling/subscriptions",
+          "organizations_url": "https://api.github.com/users/MStaehling/orgs",
+          "repos_url": "https://api.github.com/users/MStaehling/repos",
+          "events_url": "https://api.github.com/users/MStaehling/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MStaehling/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-06-08T15:45:08Z",
+        "updated_at": "2015-06-08T15:45:08Z",
+        "closed_at": null,
+        "body": "* [ ] **Yak Shaving**\r\n  * _WIP Issue_: `22 -- Planet of the APIs -- YOUR NAME`\r\n    * Link to your PR in `USERNAME.github.io`\r\n    * Link to your PR in `TIY-Github` from `develop` into `master`\r\n  *  _WIP Branch_:\r\n    * `USERNAME.github.io:journal-week-5` from `master`\r\n    * `TIY-Github`\r\n      * `develop` from `master`\r\n      * `feature/*` from `develop`\r\n  * _WIP Files_:\r\n    * `USERNAME.github.io`\r\n      * reflective journal\r\n      * tutorial journal\r\n      * bookmark journal\r\n      * `about/github-api.md`\r\n    * `TIY-Github`\r\n      * `src/index.html`\r\n      * `src/scss/main.scss`\r\n      * `src/css/.gitignore`\r\n      * `src/js/main.js`\r\n* [ ] **Journal, Week 5**\r\n  * [ ] draft of reflective journal\r\n  * [ ] draft of tutorial journal\r\n  * [ ] draft of bookmark journal\r\n* [ ] **Reading APIs**\r\n  * [ ] How does the API handle authentication?\r\n    * [ ] Do I need to authenticate?\r\n    * [ ] What can I do with an unauthenticated request?\r\n    * [ ] How can I authenticate my request? (3 ways)\r\n  * [ ] How do I ask the API for...\r\n    * [ ] The profile information for a specific user?\r\n    * [ ] The repository listing for a specific user?\r\n    * [ ] The recent, public activity for a specific user?\r\n  * [ ] Is there a limit to the number of requests I can make?\r\n    * [ ] Is there a way of extending that limit?\r\n    * [ ] What happens when I hit the limit?\r\n  * [ ] What if there is a _lot_ of data returned?\r\n    * [ ] How can I ask for more (or less) data from a request?\r\n    * [ ] How do I know that there is more data available?\r\n* [ ] **All your data is belong to us!**\r\n  * [ ] `feature/fetching-data`\r\n    * [ ] `octocat`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n    * [ ] `USERNAME`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n  * [ ] `feature/adding-placeholders`\r\n    * [ ] \"About\" column:\r\n      * [ ] avatar image\r\n      * [ ] name and login\r\n      * [ ] stats list\r\n    * [ ] \"Repositories\" column:\r\n      * [ ] Contributions\r\n      * [ ] Repositories\r\n      * [ ] Activity\r\n  * [ ] `feature/replacing-placeholders`\r\n    * [ ] `octocat`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity\r\n    * [ ] `USERNAME`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-08T15:45:08Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2873093488",
+    "type": "PushEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 36682423,
+      "name": "MStaehling/TIY-Github",
+      "url": "https://api.github.com/repos/MStaehling/TIY-Github"
+    },
+    "payload": {
+      "push_id": 688401374,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/develop",
+      "head": "5c9ebf552071029687e4f87aa6049eea1552d34a",
+      "before": "f692ccb51bb3f1ba1f899705152a2d1e4788eeb1",
+      "commits": [
+        {
+          "sha": "5c9ebf552071029687e4f87aa6049eea1552d34a",
+          "author": {
+            "email": "Michael.staehling@gmail.com",
+            "name": "Michael Staehling"
+          },
+          "message": "Finished moving files",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MStaehling/TIY-Github/commits/5c9ebf552071029687e4f87aa6049eea1552d34a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T15:22:20Z"
+  },
+  {
+    "id": "2873038819",
+    "type": "PushEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 36682423,
+      "name": "MStaehling/TIY-Github",
+      "url": "https://api.github.com/repos/MStaehling/TIY-Github"
+    },
+    "payload": {
+      "push_id": 688381804,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/develop",
+      "head": "f692ccb51bb3f1ba1f899705152a2d1e4788eeb1",
+      "before": "8061fb2bc3095bbd90ba8a8f76e539a88cd9173f",
+      "commits": [
+        {
+          "sha": "4cd28a5fe665e907c3de49601de92b5e886a7a8c",
+          "author": {
+            "email": "Michael.staehling@gmail.com",
+            "name": "Michael Staehling"
+          },
+          "message": "moving some files",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MStaehling/TIY-Github/commits/4cd28a5fe665e907c3de49601de92b5e886a7a8c"
+        },
+        {
+          "sha": "f692ccb51bb3f1ba1f899705152a2d1e4788eeb1",
+          "author": {
+            "email": "Michael.staehling@gmail.com",
+            "name": "Michael Staehling"
+          },
+          "message": "Merge branch 'develop' of git+ssh://github.com/Mstaehling/TIY-Github into develop",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MStaehling/TIY-Github/commits/f692ccb51bb3f1ba1f899705152a2d1e4788eeb1"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T15:07:38Z"
+  },
+  {
+    "id": "2872849729",
+    "type": "PushEvent",
+    "actor": {
+      "id": 7108911,
+      "login": "MStaehling",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MStaehling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108911?"
+    },
+    "repo": {
+      "id": 36682423,
+      "name": "MStaehling/TIY-Github",
+      "url": "https://api.github.com/repos/MStaehling/TIY-Github"
+    },
+    "payload": {
+      "push_id": 688313536,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/develop",
+      "head": "8061fb2bc3095bbd90ba8a8f76e539a88cd9173f",
+      "before": "f2810621d21b00a9aee12efb6d1fda97910c8743",
+      "commits": [
+        {
+          "sha": "8061fb2bc3095bbd90ba8a8f76e539a88cd9173f",
+          "author": {
+            "email": "Michael.staehling@gmail.com",
+            "name": "Michael Staehling"
+          },
+          "message": "Update index.html",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MStaehling/TIY-Github/commits/8061fb2bc3095bbd90ba8a8f76e539a88cd9173f"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T14:17:27Z"
+  }
+]
