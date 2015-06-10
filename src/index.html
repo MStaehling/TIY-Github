@@ -36,30 +36,30 @@
     </nav>
   </div>
   <div class="profile">
-    <img src="octocat.png" id="avatar">
+    <img src="#" id="avatar">
     <div class="details">
-      <h2>The Octocat</h2>
-      <p>Octocat</p>
+      <h2>{{NAME}}</h2>
+      <p>{{LOGIN}}</p>
       <ul>
         <li class="github">
-          <span class="octicon octicon-organization"></span>GitHub</li>
-        <li class="location"><span class="octicon octicon-pin"></span>San Francisco</li>
-        <li class="e-mail"><a href="mailto:octocat@github.com"><span class="octicon octicon-mail"></span>octocat@github.com</a></li>
-        <li class="blog"><a href="http://www.github.com/blog"><span class="octicon octicon-link"></span>http://www.github.com/blog</a></li>
+          <span class="octicon octicon-organization"></span>{{ORGANIZATION}}</li>
+        <li class="location"><span class="octicon octicon-pin"></span>{{CITY}}</li>
+        <li class="e-mail"><a href="mailto:octocat@github.com"><span class="octicon octicon-mail"></span>{{EMAIL}}</a></li>
+        <li class="blog"><a href="http://www.github.com/blog"><span class="octicon octicon-link"></span>{{BLOG}}</a></li>
       </ul>
     </div>
     <div class="stats">
-      <button name="follow"><span class="octicon octicon-person">follow</span></button>
+      <button name="follow"><span class="octicon octicon-person">{{BUTTON}}</span></button>
       <table>
         <tr class="top">
-          <td>1K</td>
-          <td>2</td>
-          <td>6</td>
+          <td>{{#FOLLOWERS}}</td>
+          <td>{{#STARRED}}</td>
+          <td>{{#FOLLOWING}}</td>
         </tr>
         <tr class="bottom">
-          <td><a href=""><span>followers</span></a></td>
-          <td><a href=""><span>starred</span></a></td>
-          <td><a href=""><span>following</span></a></td>
+          <td><a href=""><span>{{followers}}</span></a></td>
+          <td><a href=""><span>{{starred}}</span></a></td>
+          <td><a href=""><span>{{following}}</span></a></td>
         </tr>
       </table>
     </div>
@@ -104,7 +104,6 @@
 <script>
 $.getJSON('../api/github/users/octocat.json')
 .then(function(octocat){
-  console.log(octocat.avatar_url);
 
   // Where is the URL for the avater? octocat.avatar
   // Where does the URL go in my HTML page?
