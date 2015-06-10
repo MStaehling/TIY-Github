@@ -6,7 +6,7 @@
             $name = $('#name');
             $name.text(octocat.name);
 
-            $avatar = $('img', '#avatar');
+            $avatar = $('img#avatar');
             $avatar.attr('src', octocat.avatar_url);
 
             $login = $('#login');
@@ -18,11 +18,12 @@
             $github = $('#github');
             $github.text(octocat.company);
 
-            $email = $('a', '#e-mail');
-            $email.attr('href', 'mailto:' + octocat.email);
-
-            $blog = $('a', '#blog');
-            $blog.attr('href', octocat.blog);
+// refactor
+            // $email = $('a#e-mail');
+            // $email.attr('href', 'mailto:' + octocat.email);
+            //
+            // $blog = $('a', '#blog');
+            // $blog.attr('href', octocat.blog);
 
             $followers = $('#followers-count');
             $followers.text(octocat.followers);
@@ -30,8 +31,10 @@
             $following = $('#following-count');
             $following.text(octocat.following);
 
-            $starred = $('#star-count');
-            $starred.text(octocat.starred_url.length);
+
+// refactor
+            // $starred = $('#star-count');
+            // $starred.array(octocat.starred_url.length);
             // just set it to
             // $('star-count') = octocat.starred_url.length;
 
