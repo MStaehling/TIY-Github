@@ -6,8 +6,8 @@
             $name = $('#name');
             $name.text(octocat.name);
 
-            $avatar = $('img#avatar');
-            $avatar.attr('src', octocat.avatar_url);
+            // $avatar = $('img#avatar');
+            // $avatar.attr('src', octocat.avatar_url);
 
             $login = $('#login');
             $login.text(octocat.login);

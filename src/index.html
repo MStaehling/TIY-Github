@@ -2,114 +2,158 @@
 <html class="no-js" lang="">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <link rel="stylesheet" href="../bower_components/octicons/octicons/octicons.css">
-  <!-- bower:css -->
-  <link rel="stylesheet" href="../bower_components/pure/pure.css" />
-  <link rel="stylesheet" href="../bower_components/normalize.css/normalize.css" />
-  <!-- endbower -->
-  <link rel="stylesheet" href="css/main.css">
-  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <link rel="stylesheet" href="../bower_components/octicons/octicons/octicons.css">
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/pure/pure.css" />
+    <link rel="stylesheet" href="../bower_components/normalize.css/normalize.css" />
+    <!-- endbower -->
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
 
-  <section class="grid">
-    <div class="unit">1</div>
-    <div class="unit">2</div>
-    <div class="unit">3</div>
-    <div class="unit">4</div>
-    <div class="unit">5</div>
-    <div class="unit">6</div>
-    <div class="unit">7</div>
-    <div class="unit">8</div>
-  </section>
-  <section class="grid">
-    <div class="unit-span-2">2 col</div>
-    <div class="unit-span-4">4 col</div>
-    <div class="unit-span-2">2 col</div>
-  </section>
-  <section class="grid">
-    <div class="unit-span-4 offset-2">unit-span-4 offset-2</div>
-  </section>
+    <section class="grid">
+        <div class="unit">1</div>
+        <div class="unit">2</div>
+        <div class="unit">3</div>
+        <div class="unit">4</div>
+        <div class="unit">5</div>
+    </section>
+  <!--  <section class="grid">
+        <div class="unit-span-2">2 col</div>
+        <div class="unit-span-4">4 col</div>
+        <div class="unit-span-2">2 col</div>
+    </section>
+    <section class="grid">
+        <div class="unit-span-4 offset-2">unit-span-4 offset-2</div>
+    </section> -->
 
 
+    <section class="mobile">
+        <div class="tabs">
+            <nav>
+                <ul>
+                    <li class="tab-current">
+                        <a href="">
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>Repositories</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="profile">
+            <img src="#" id="avatar">
+            <div class="details">
+                <h2 id="name">{{NAME}}</h2>
+                <p id="login">{{LOGIN}}</p>
+                <ul>
+                    <li id="github">
+                        <span class="octicon octicon-organization"></span>{{ORGANIZATION}}</li>
+                    <li id="location">
+                        <span class="octicon octicon-pin"></span>{{CITY}}</li>
+                    <li id="e-mail">
+                        <a href="mailto:octocat@github.com">
+                            <span class="octicon octicon-mail"></span>{{EMAIL}}</a>
+                    </li>
+                    <li id="blog">
+                        <a href="http://www.github.com/blog">
+                            <span class="octicon octicon-link"></span>{{BLOG}}</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="stats">
+                <button name="follow">
+                    <span class="octicon octicon-person">{{BUTTON}}</span>
+                </button>
+                <table>
+                    <tr class="top">
+                        <td id="followers-count">{{#FOLLOWERS}}</td>
+                        <td id="star-count">{{#STARRED}}</td>
+                        <td id="following-count">{{#FOLLOWING}}</td>
+                    </tr>
+                    <tr class="bottom">
+                        <td>
+                            <a href="">
+                                <span>{{followers}}</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                <span>{{starred}}</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="">
+                                <span>{{following}}</span>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <nav class="popular-repo">
+                <h3>Popular repositories</h3>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="octicon octicon-repo"></span>octocat/Spoon-Knife</a>
+                    </li>
+                    <li class="right">9,772
+                        <span class="octicon octicon-star"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="octicon octicon-repo"></span>octocat/Hello-World</a>
+                    </li>
+                    <li class="right">1,403
+                        <span class="octicon octicon-star"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="octicon octicon-repo"></span>octocat/hello-world</a>
+                    </li>
+                    <li class="right">10
+                        <span class="octicon octicon-star"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="octicon octicon-repo"></span>octocat.github.io</a>
+                    </li>
+                    <li class="right">8
+                        <span class="octicon octicon-star"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="octicon octicon-repo"></span>octocat/git-consortium</a>
+                    </li>
+                    <li class="right">5
+                        <span class="octicon octicon-star"></span>
+                    </li>
+                </ul>
 
-  <div class="tabs">
-    <nav>
-      <ul>
-        <li class="tab-current">
-          <a href="">
-            <span>About</span>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <span>Repositories</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-  <div class="profile">
-    <img src="#" id="avatar">
-    <div class="details">
-      <h2 id="name">{{NAME}}</h2>
-      <p id="login">{{LOGIN}}</p>
-      <ul>
-        <li id="github">
-          <span class="octicon octicon-organization"></span>{{ORGANIZATION}}</li>
-        <li id="location"><span class="octicon octicon-pin"></span>{{CITY}}</li>
-        <li id="e-mail"><a href="mailto:octocat@github.com"><span class="octicon octicon-mail"></span>{{EMAIL}}</a></li>
-        <li id="blog"><a href="http://www.github.com/blog"><span class="octicon octicon-link"></span>{{BLOG}}</a></li>
-      </ul>
-    </div>
-    <div class="stats">
-      <button name="follow"><span class="octicon octicon-person">{{BUTTON}}</span></button>
-      <table>
-        <tr class="top">
-          <td id="followers-count">{{#FOLLOWERS}}</td>
-          <td id="star-count">{{#STARRED}}</td>
-          <td id="following-count">{{#FOLLOWING}}</td>
-        </tr>
-        <tr class="bottom">
-          <td><a href=""><span>{{followers}}</span></a></td>
-          <td><a href=""><span>{{starred}}</span></a></td>
-          <td><a href=""><span>{{following}}</span></a></td>
-        </tr>
-      </table>
-    </div>
-      <nav class="popular-repo">
-        <h3>Popular repositories</h3>
-        <ul>
-          <li><a href=""><span class="octicon octicon-repo"></span>octocat/Spoon-Knife</a></li>
-          <li class="right">9,772<span class="octicon octicon-star"></span></li>
-        </ul>
-        <ul>
-          <li><a href=""><span class="octicon octicon-repo"></span>octocat/Hello-World</a></li>
-          <li class="right">1,403<span class="octicon octicon-star"></span></li>
-        </ul>
-        <ul>
-          <li><a href=""><span class="octicon octicon-repo"></span>octocat/hello-world</a></li>
-          <li class="right">10<span class="octicon octicon-star"></span></li>
-        </ul>
-        <ul>
-          <li><a href=""><span class="octicon octicon-repo"></span>octocat.github.io</a></li>
-          <li class="right">8<span class="octicon octicon-star"></span></li>
-        </ul>
-        <ul>
-          <li><a href=""><span class="octicon octicon-repo"></span>octocat/git-consortium</a></li>
-          <li class="right">5<span class="octicon octicon-star"></span></li>
-        </ul>
-
-      </nav>
-
+            </nav>
+    </section>
+    <!-- class mobile -->
 
 
 
@@ -124,7 +168,6 @@
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
 <script>
-
-
 </script>
+
 </html>
