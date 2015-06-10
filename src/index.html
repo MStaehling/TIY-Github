@@ -19,6 +19,28 @@
 </head>
 
 <body>
+
+  <section class="grid">
+    <div class="unit">1</div>
+    <div class="unit">2</div>
+    <div class="unit">3</div>
+    <div class="unit">4</div>
+    <div class="unit">5</div>
+    <div class="unit">6</div>
+    <div class="unit">7</div>
+    <div class="unit">8</div>
+  </section>
+  <section class="grid">
+    <div class="unit-span-2">2 col</div>
+    <div class="unit-span-4">4 col</div>
+    <div class="unit-span-2">2 col</div>
+  </section>
+  <section class="grid">
+    <div class="unit-span-4 offset-2">unit-span-4 offset-2</div>
+  </section>
+
+
+
   <div class="tabs">
     <nav>
       <ul>
@@ -38,23 +60,23 @@
   <div class="profile">
     <img src="#" id="avatar">
     <div class="details">
-      <h2>{{NAME}}</h2>
-      <p>{{LOGIN}}</p>
+      <h2 id="name">{{NAME}}</h2>
+      <p id="login">{{LOGIN}}</p>
       <ul>
-        <li class="github">
+        <li id="github">
           <span class="octicon octicon-organization"></span>{{ORGANIZATION}}</li>
-        <li class="location"><span class="octicon octicon-pin"></span>{{CITY}}</li>
-        <li class="e-mail"><a href="mailto:octocat@github.com"><span class="octicon octicon-mail"></span>{{EMAIL}}</a></li>
-        <li class="blog"><a href="http://www.github.com/blog"><span class="octicon octicon-link"></span>{{BLOG}}</a></li>
+        <li id="location"><span class="octicon octicon-pin"></span>{{CITY}}</li>
+        <li id="e-mail"><a href="mailto:octocat@github.com"><span class="octicon octicon-mail"></span>{{EMAIL}}</a></li>
+        <li id="blog"><a href="http://www.github.com/blog"><span class="octicon octicon-link"></span>{{BLOG}}</a></li>
       </ul>
     </div>
     <div class="stats">
       <button name="follow"><span class="octicon octicon-person">{{BUTTON}}</span></button>
       <table>
         <tr class="top">
-          <td>{{#FOLLOWERS}}</td>
-          <td>{{#STARRED}}</td>
-          <td>{{#FOLLOWING}}</td>
+          <td id="followers-count">{{#FOLLOWERS}}</td>
+          <td id="star-count">{{#STARRED}}</td>
+          <td id="following-count">{{#FOLLOWING}}</td>
         </tr>
         <tr class="bottom">
           <td><a href=""><span>{{followers}}</span></a></td>
@@ -102,14 +124,7 @@
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
 <script>
-$.getJSON('../api/github/users/octocat.json')
-.then(function(octocat){
 
-  // Where is the URL for the avater? octocat.avatar
-  // Where does the URL go in my HTML page?
-  $avatar = $('img#avatar');
-  // What do we do once we have the underpants?
-$avatar.attr('src', octocat.avatar_url);
-});
+
 </script>
 </html>

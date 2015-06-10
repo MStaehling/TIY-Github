@@ -1,0 +1,29 @@
+// .grid {
+//   $grid-width: 100%;
+//   max-width: 80%;
+//     background-color: lightgrey;
+//     outline: 2px solid red;
+//     @extend .clearfix;
+//     width: $grid-width;
+//     margin: 0 auto;
+//     .unit {
+//         background-color: grey;
+//         outline: 2px solid blue;
+//         float: left;
+//         width: ($grid-width/8);
+//         padding-left: 1em;
+//         padding-right: 1em;
+//         box-sizing: border-box;
+//     }
+//     .unit-span-2 {
+//       @extend .unit;
+//       width: ($grid-width/4);
+//     }
+//     .unit-span-4 {
+//       @extend .unit;
+//       width: ($grid-width/2);
+//     }
+//     .offset-2 {
+//       margin-left: ($grid-width/4);
+//     }
+// }

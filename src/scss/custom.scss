@@ -51,7 +51,8 @@ img {
     list-style: none;
     padding: 0;
 }
-.profile div ul li span {
+.profile div ul li
+.profile div ul li::before {
     margin: 2px;
     font-size: 1em;
     color: grey;
