@@ -33,8 +33,8 @@
 
 
 // refactor
-            // $starred = $('#star-count');
-            // $starred.array(octocat.starred_url.length);
+            $starred = $('#star-count');
+            $starred[octocat.starred_url].length;
             // just set it to
             // $('star-count') = octocat.starred_url.length;
 
