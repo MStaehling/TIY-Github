@@ -1,22 +1,22 @@
 (function(window) {
-    $.getJSON("../../api/github/users/octocat.json")
-        .then(function(octocat) {
-            console.log(octocat);
+    $.getJSON("../../api/github/users/mstaehling.json")
+        .then(function(mstaehling) {
+            console.log(mstaehling);
 
             $name = $('#name');
-            $name.text(octocat.name);
+            $name.text(mstaehling.name);
 
-            // $avatar = $('img#avatar');
-            // $avatar.attr('src', octocat.avatar_url);
+            $avatar = $('img#avatar');
+            $avatar.attr('src', mstaehling.avatar_url);
 
             $login = $('#login');
-            $login.text(octocat.login);
+            $login.text(mstaehling.login);
 
-            $location = $('#location');
-            $location.text(octocat.location);
-
-            $github = $('#github');
-            $github.text(octocat.company);
+            // $location = $('#location');
+            // $location.text(octocat.location);
+            //
+            // $github = $('#github');
+            // $github.text(octocat.company);
 
 // refactor
             // $email = $('a#e-mail');
@@ -26,10 +26,10 @@
             // $blog.attr('href', octocat.blog);
 
             $followers = $('#followers-count');
-            $followers.text(octocat.followers);
+            $followers.text(mstaehling.followers);
 
             $following = $('#following-count');
-            $following.text(octocat.following);
+            $following.text(mstaehling.following);
 
 
 // refactor
