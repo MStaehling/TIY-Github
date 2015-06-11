@@ -41,6 +41,6 @@
 
 
         });
-_.pluck("../../api/github/users/MStaehling/mstaehling-repos.json");
+_.pluck("../../api/github/users/MStaehling/mstaehling-repos.json", mstaehling.repos_url);
 // _.every("../../api/github/users/MStaehling/mstaehling-repos.json", mstaehling.repos_url);
 })(window);
