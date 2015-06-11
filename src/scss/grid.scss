@@ -60,7 +60,26 @@
         }
     }
 }
-@media screen and (min-width: 30em) {
+@media screen and (max-width: 30em) {
+
+  .grid {
+    $grid-width:100%;
+    .unit {
+      width: $grid-width;
+      &.two {
+        width: $grid-width;
+      }
+      &.three {
+        width: $grid-width;
+        margin: 0;
+      }
+      &.four {
+        width: $grid-width;
+        margin: 0;
+      }
+    }
+  }
+
   .mobile {
     display: none;
   }
