@@ -36,23 +36,33 @@
         float: left;
         font-size: 200%;
         outline: 2px solid green;
-        .1 {
-            width: ($grid-width/5);
+        width: ($grid-width/5);
+        background-color: khaki;
+        padding: 0 1em;
+        box-sizing: border-box;
+        &.two {
+          width: ($grid-width/5) * 2;
+          &.push {
+            float: right;
+            // margin: ($grid-width/5);
+          }
         }
-        .2 {
-            width: ($grid-width/5) * 4;
+        &.three {
+          width: ($grid-width/5) * 3;
+          margin-left: ($grid-width/5);
         }
-        .3 {
-            width: ($grid-width/5) * 3;
+        &.four {
+          width: ($grid-width/5) * 4;
+          margin-left: ($grid-width/10);
         }
-        .4 {
-            width: ($grid-width/5) * 2;
-        }
-        .5 {
-            width: $grid-width;
+        &.five {
+          width: $grid-width;
         }
     }
 }
 @media screen and (min-width: 30em) {
+  .mobile {
+    display: none;
+  }
 
 }
