@@ -1,24 +1,27 @@
 (function(window) {
+  // var $name = $('#name');
     $.getJSON("../../api/github/users/mstaehling.json")
         .then(function(mstaehling) {
-            console.log(mstaehling);
             /**
              * Replacing placeholders with data from....?
              * @param
              * @return
              */
-             var nameTpl = _.template($('#name').html());
+             var nameTpl = _.template($('.details').html());
+
+             console.log(nameTpl({ 'mstaehling': mstaehling }));
              
+             $('.details').html(nameTpl({ 'mstaehling': mstaehling }));
 
 
             // $name = $('#name');
             // $name.text(mstaehling.name);
 
-            $avatar = $('img#avatar');
-            $avatar.attr('src', mstaehling.avatar_url);
-
-            $login = $('#login');
-            $login.text(mstaehling.login);
+            // $avatar = $('img#avatar');
+            // $avatar.attr('src', mstaehling.avatar_url);
+            //
+            // $login = $('#login');
+            // $login.text(mstaehling.login);
 
             // $location = $('#location');
             // $location.text(octocat.location);
@@ -33,11 +36,11 @@
             // $blog = $('a', '#blog');
             // $blog.attr('href', octocat.blog);
 
-            $followers = $('#followers-count');
-            $followers.text(mstaehling.followers);
-
-            $following = $('#following-count');
-            $following.text(mstaehling.following);
+            // $followers = $('#followers-count');
+            // $followers.text(mstaehling.followers);
+            //
+            // $following = $('#following-count');
+            // $following.text(mstaehling.following);
 
 
             // refactor
