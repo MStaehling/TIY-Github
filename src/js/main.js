@@ -1,35 +1,61 @@
 (function(window) {
-    $.getJSON("../../api/github/users/mstaehling.json")
-        .then(function(mstaehling) {
-            console.log(mstaehling);
+  var app = angular.module('tiy-github', [ ]);
 
-            $name = $('#name');
-            $name.text(mstaehling.name);
+  app.controller('MainController', function($http){
+    var self = this;
+    
 
-            $avatar = $('img#avatar');
-            $avatar.attr('src', mstaehling.avatar_url);
+    $http.get("../../api/github/users/mstaehling.json")
+    .success(function(user){
+      console.log(arguments);
 
-            $login = $('#login');
-            $login.text(mstaehling.login);
+      self.user = user;
+    })
+    .then(function(response){
+      console.log(response.data);
+    })
+  });
 
-            // $location = $('#location');
-            // $location.text(octocat.location);
-            //
-            // $github = $('#github');
-            // $github.text(octocat.company);
+  // // Inside the magic of 'ng-controller'...
+  // var MainController = app.controller('MainController');
+  //
+  // var app = new MainController({
+  //   el: //whatever ng-controller is an attr of
+  //   data: // whatever is attached to 'this' inside MainController
+  // }); //new vue ({el....data....})
 
-// refactor
-            // $email = $('a#e-mail');
-            // $email.attr('href', 'mailto:' + octocat.email);
-            //
-            // $blog = $('a', '#blog');
-            // $blog.attr('href', octocat.blog);
 
-            $followers = $('#followers-count');
-            $followers.text(mstaehling.followers);
-
-            $following = $('#following-count');
-            $following.text(mstaehling.following);
+//     $.getJSON("../../api/github/users/mstaehling.json")
+//         .then(function(mstaehling) {
+//             console.log(mstaehling);
+//
+//             // $name = $('#name');
+//             // $name.text(mstaehling.name);
+//
+//             $avatar = $('img#avatar');
+//             $avatar.attr('src', mstaehling.avatar_url);
+//
+//             $login = $('#login');
+//             $login.text(mstaehling.login);
+//
+//             // $location = $('#location');
+//             // $location.text(octocat.location);
+//             //
+//             // $github = $('#github');
+//             // $github.text(octocat.company);
+//
+// // refactor
+//             // $email = $('a#e-mail');
+//             // $email.attr('href', 'mailto:' + octocat.email);
+//             //
+//             // $blog = $('a', '#blog');
+//             // $blog.attr('href', octocat.blog);
+//
+//             $followers = $('#followers-count');
+//             $followers.text(mstaehling.followers);
+//
+//             $following = $('#following-count');
+//             $following.text(mstaehling.following);
 
 
 // refactor
@@ -40,7 +66,7 @@
 
 
 
-        });
+        // });
 
 
 })(window);

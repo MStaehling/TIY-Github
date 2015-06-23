@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="" ng-app="tiy-github" >
 
 <head>
     <meta charset="utf-8">
@@ -67,11 +67,11 @@
                 </ul>
             </nav>
         </div>
-        <div class="profile">
+        <div class="profile" ng-controller="MainController as app">
             <img src="#" id="avatar">
             <div class="details">
-                <h2 id="name">{{NAME}}</h2>
-                <p id="login">{{LOGIN}}</p>
+                <h2 id="name">{{app.user.name}}</h2>
+                <p id="login">{{app.user.login}}</p>
                 <ul>
                     <li id="github">
                         <span class="octicon octicon-organization"></span>{{ORGANIZATION}}</li>
@@ -89,28 +89,28 @@
             </div>
             <div class="stats">
                 <button name="follow">
-                    <span class="octicon octicon-person">{{BUTTON}}</span>
+                    <span class="octicon octicon-person">Follow</span>
                 </button>
                 <table>
                     <tr class="top">
-                        <td id="followers-count">{{#FOLLOWERS}}</td>
-                        <td id="star-count">{{#STARRED}}</td>
-                        <td id="following-count">{{#FOLLOWING}}</td>
+                        <td id="followers-count">{{FOLLOWERS}}</td>
+                        <td id="star-count">{{STARRED}}</td>
+                        <td id="following-count">{{FOLLOWING}}</td>
                     </tr>
                     <tr class="bottom">
                         <td>
                             <a href="">
-                                <span>{{followers}}</span>
+                                <span>{{app.user.followers}}</span>
                             </a>
                         </td>
                         <td>
                             <a href="">
-                                <span>{{starred}}</span>
+                                <span>{{app.user.starred}}</span>
                             </a>
                         </td>
                         <td>
                             <a href="">
-                                <span>{{following}}</span>
+                                <span>{{app.user.following}}</span>
                             </a>
                         </td>
                     </tr>
@@ -176,6 +176,7 @@
 <!-- bower:js -->
 <script src="../bower_components/jquery/dist/jquery.js"></script>
 <script src="../bower_components/lodash/lodash.js"></script>
+<script src="../bower_components/angular/angular.js"></script>
 <!-- endbower -->
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
